@@ -1,0 +1,67 @@
+{
+	"massDisruption" : 
+	{
+		"type": "combat",
+		"targetType" : "CREATURE",
+		"name" : "Mass Disruption",
+		"school": {"air":true, "earth":false, "fire":false, "water":false},
+		"level": 4,
+		"power": 1,
+		"defaultGainChance": 0, 		
+		"gainChance":
+		{},
+		"graphics":
+		{
+			"iconImmune":"massspells/disruptionImmune.bmp",
+			"iconScenarioBonus": "massspells/massDisruptionBonus.bmp",
+			"iconEffect": "massspells/disruptionEffect.bmp",
+			"iconBook": "massspells/massDisruptionFrame.bmp",
+			"iconScroll": "massspells/massDisruptionScroll.bmp"
+ 
+		},		
+		"animation":
+		{"affect":[{"defName":"C07SPA1", "verticalPosition":"bottom"}, "C07SPA1"]},
+		"sounds": {"cast": "DISRUPTR"},
+		
+		"levels" : 
+			{			
+				"base": {
+					"description": "Mass Disruption won't work unless the hero knows Expert Air Magic.",
+					"cost": -1,
+					"power": 1,
+					"aiValue": 20,
+					"range" : "X",
+					"targetModifier":{"smart":true},
+					"effects" : {
+						"primarySkill" : {
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primSkill.defence",
+							"val" : -5,
+							"valueType" : "ADDITIVE_VALUE",
+							"duration" : "PERMANENT"
+						}
+						}
+						},					
+						"none":
+						{},
+						"basic":
+						{},
+						"advanced":
+						{},
+					"expert":
+					{
+						"description": "{Mass Disruption}\n\nReduces the defense strength of all enemy units. This spell can be combined with Disrupting Ray for increased effect.\n\nThe effect is greater than that of Advanced Disrupting Ray.\n",
+						"cost": 16
+					}
+                },
+				"targetCondition" : {
+					"allOf" : {},
+					"anyOf" : {},			
+					"noneOf" : {
+					}
+			},	
+		"counters": { 		
+		},
+		"flags" : {	"negative": true, "special": true }
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"name" : "Mass Spells",
+	"description" : "This mod adds 6 spells - mass versions of 5 status-affecting spells and one extra mass spell that affects enemies' defense. They all become available when a hero learns Basic or Advanced Wisdom Skill and corresponding Expert Magic Skill. Mass versions cost more spell points.",
+	"author" : "Andruids, Kammer",
+	"contact" : "madaosoul@gmail.com",
+	"version" : "0.8",
+	"modType" : "Spells",	
+
+	"skills" :
+	[
+		"massWisdom.json"
+	],
+	"spells" :
+	[
+		"massShield.json",
+		"massDisruption.json",
+		"massSlow.json",
+		"massHaste.json",	
+		"massBloodlust.json",	
+		"massWeakness.json",		
+		"massCounters.json"
+	]
+
+}

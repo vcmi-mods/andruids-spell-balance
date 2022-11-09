@@ -1,0 +1,14 @@
+{
+	"name" : "Level 2 Slow",
+	"description" : "With this modification, Slow spell is moved to level 2 and costs 1 more spell point without Earth Magic Skill).",
+	"author" : "Andruids",
+	"contact" : "madaosoul@gmail.com",
+	"version" : "1.0",
+	"modType" : "Spells",	
+
+	"spells" :
+	[
+		"lv2slow.json"
+	]
+
+}

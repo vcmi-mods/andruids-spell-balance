@@ -1,0 +1,14 @@
+{
+	"name" : "Spells Range",
+	"description" : "With this modification, every spell that affected all units on Expert Magic level (except Dispel) now affects the area of 2, 3 or 4 hex radius.",
+	"author" : "Andruids, Kammer",
+	"contact" : "madaosoul@gmail.com",
+	"version" : "0.3",
+	"modType" : "Spells",	
+
+	"spells" :
+	[
+		"spellRange.json"
+	]
+
+}
