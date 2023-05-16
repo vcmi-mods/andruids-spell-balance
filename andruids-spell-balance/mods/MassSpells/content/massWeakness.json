@@ -27,19 +27,11 @@
 			{			
 				"base": {
 					"description": "Mass Weakness won't work unless the hero knows Expert Water Magic.",
-					"cost": -1,
+					"cost": 0,
 					"power": 1,
 					"aiValue": 20,
 					"range" : "X",
-					"targetModifier":{"smart":true},
-					"effects" : {
-						"primarySkill" : {
-							"type" : "PRIMARY_SKILL",
-							"subtype" : "primSkill.attack",
-							"val" : -6,
-							"duration" : "N_TURNS"
-						}
-						}
+					"targetModifier":{"smart":true}
 						},					
 						"none":
 						{},
@@ -50,7 +42,15 @@
 					"expert":
 					{
 						"description": "{Mass Weakness}\n\nReduces the attack strength of all enemy units.\n\nThe effect is twice that of Basic Weakness.\n",
-						"cost": 14
+						"cost": 14,
+						"effects" : {
+							"primarySkill" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primSkill.attack",
+								"val" : -6,
+								"duration" : "N_TURNS"
+							}
+							}
 					}
                 },
 				"targetCondition" : {

@@ -1,0 +1,537 @@
+{
+	"core:eagleEye" : {
+
+		"base" : {
+			"effects" : {
+				"main" : {
+					"subtype" : 0,
+					"type" : "LEARN_BATTLE_SPELL_CHANCE",
+					"valueType" : "BASE_NUMBER"
+				},
+				"val2" : {
+					"subtype" : -1,
+					"type" : "LEARN_BATTLE_SPELL_LEVEL_LIMIT",
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"basic" : {
+		"description":"{Basic Eagle Eye}\n\nBasic Eagle Eye gives your hero a 50% chance to learn any spell up to 2nd level used in combat. Also, when facing a hero who knows any Basic magic skill, your hero can cast spells from the same school on the Basic level.",			
+			"effects" : {
+				"main" : { "val" : 50 },
+				"val2" : { "val" : 2 },
+				
+				
+				"airCopy1" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 1,
+					"val" : 1,
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy1"]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy2"]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy3"]	} ]
+
+				},
+				
+				
+				
+				"fireCopy1" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 2,
+					"val" : 1,
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy1"]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy2"]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy3"]	} ]
+
+				},
+				
+				
+				
+				"waterCopy1" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 4,
+					"val" : 1,
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy1"]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy2"]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy3"]	} ]
+
+				},
+				
+				
+				
+				"earthCopy1" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 8,
+					"val" : 1,
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy1"]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy2"]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy3"]	} ]
+
+				}
+			}
+		},
+		"advanced" : {
+		"description":"{Advanced Eagle Eye}\n\nAdvanced Eagle Eye gives your hero a 60% chance to learn any spell up to 3th level used in combat. Also, when facing a hero who knows any Advanced magic skill, your hero can cast spells from the same school on the Advanced level.",		
+			"effects" : {
+				"main" : { "val" : 60 },
+				"val2" : { "val" : 3 },
+				
+				
+				"airCopy1" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 1,
+					"val" : 1,
+					"limiters": [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy1"]
+						}
+					]
+
+				},
+				"airCopy2" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 1,
+					"val" : 2,
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy2"]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy3"]	} ]
+
+				},
+				
+				"fireCopy1" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 2,
+					"val" : 1,
+					"limiters": [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy1"]
+						}
+					]
+
+				},
+				"fireCopy2" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 2,
+					"val" : 2,
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy2"]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy3"]	} ]
+
+				},
+				
+				"waterCopy1" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 4,
+					"val" : 1,
+					"limiters": [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy1"]
+						}
+					]
+
+				},
+				"waterCopy2" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 4,
+					"val" : 2,
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy2"]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy3"]	} ]
+
+				},
+				
+				"earthCopy1" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 8,
+					"val" : 1,
+					"limiters": [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy1"]
+						}
+					]
+
+				},
+				"earthCopy2" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 8,
+					"val" : 2,
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy2"]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy3"]	} ]
+
+				}
+			}
+		},
+		"expert" : {
+		"description":"{Expert Eagle Eye}\n\nExpert Eagle Eye gives your hero a 70% chance to learn any spell up to 4th level used in combat. Also, when facing a hero who knows any Expert magic skill, your hero can cast spells from the same school on the Expert level.",
+			"effects" : {
+				"main" : { "val" : 70 },
+				"val2" : { "val" : 4 },
+				
+				
+				"airCopy1" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 1,
+					"val" : 1,
+					"limiters": [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy1"]
+						}
+					]
+
+				},
+				"airCopy2" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 1,
+					"val" : 2,
+					"limiters": [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy2"]
+						}
+					]
+
+				},
+				
+				"airCopy3" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 1,
+					"val" : 3,
+					"limiters": [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy3"]
+						}
+					]
+
+				},
+				
+				"fireCopy1" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 2,
+					"val" : 1,
+					"limiters": [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy1"]
+						}
+					]
+
+				},
+				"fireCopy2" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 2,
+					"val" : 2,
+					"limiters": [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy2"]
+						}
+					]
+
+				},
+				
+				"fireCopy3" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 2,
+					"val" : 3,
+					"limiters": [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy3"]
+						}
+					]
+
+				},
+				
+				"waterCopy1" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 4,
+					"val" : 1,
+					"limiters": [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy1"]
+						}
+					]
+
+				},
+				"waterCopy2" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 4,
+					"val" : 2,
+					"limiters": [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy2"]
+						}
+					]
+
+				},
+				
+				"waterCopy3" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 4,
+					"val" : 3,
+					"limiters": [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy3"]
+						}
+					]
+
+				},
+				
+				"earthCopy1" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 8,
+					"val" : 1,
+					"limiters": [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy1"]
+						}
+					]
+
+				},
+				"earthCopy2" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 8,
+					"val" : 2,
+					"limiters": [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy2"]
+						}
+					]
+
+				},
+				
+				"earthCopy3" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"propagator" : "HERO",
+					"subtype" : 8,
+					"val" : 3,
+					"limiters": [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy3"]
+						}
+					]
+
+				}
+			}
+		}
+	},
+
+	"core:airMagic" : {
+		"base" : {
+			"effects" : {
+				"main" : {
+					"subtype" : 1,
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				
+				"eagleCopyAir" : {
+					"type" : "MORE_DAMAGE_FROM_SPELL",
+					"propagator" : "BATTLE_WIDE"
+
+				}
+				
+			}
+		},
+		"basic" : {
+			"effects" : {
+				"main" : { "val" : 1 },
+				
+				"eagleCopyAir" : {
+					"subtype" : "spell.airCopy1"
+				}
+			}
+		},
+		"advanced" : {
+			"effects" : {
+				"main" : { "val" : 2 },
+				
+				"eagleCopyAir" : {
+					"subtype" : "spell.airCopy2"
+				}
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"main" : { "val" : 3 },
+				
+				"eagleCopyAir" : {
+					"subtype" : "spell.airCopy3"
+				}
+			}
+		}
+		},
+		
+
+	"core:fireMagic" : {
+		"base" : {
+			"effects" : {
+				"main" : {
+					"subtype" : 2,
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				
+				"eagleCopyFire" : {
+					"type" : "MORE_DAMAGE_FROM_SPELL",
+					"propagator" : "BATTLE_WIDE"
+
+				}
+				
+			}
+		},
+		"basic" : {
+			"effects" : {
+				"main" : { "val" : 1 },
+				
+				"eagleCopyFire" : {
+					"subtype" : "spell.fireCopy1"
+				}
+			}
+		},
+		"advanced" : {
+			"effects" : {
+				"main" : { "val" : 2 },
+				
+				"eagleCopyFire" : {
+					"subtype" : "spell.fireCopy2"
+				}
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"main" : { "val" : 3 },
+				
+				"eagleCopyFire" : {
+					"subtype" : "spell.fireCopy3"
+				}
+			}
+		}
+		},
+		
+
+	"core:waterMagic" : {
+		"base" : {
+			"effects" : {
+				"main" : {
+					"subtype" : 4,
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				
+				"eagleCopyWater" : {
+					"type" : "MORE_DAMAGE_FROM_SPELL",
+					"propagator" : "BATTLE_WIDE"
+
+				}
+				
+			}
+		},
+		"basic" : {
+			"effects" : {
+				"main" : { "val" : 1 },
+				
+				"eagleCopyWater" : {
+					"subtype" : "spell.waterCopy1"
+				}
+			}
+		},
+		"advanced" : {
+			"effects" : {
+				"main" : { "val" : 2 },
+				
+				"eagleCopyWater" : {
+					"subtype" : "spell.waterCopy2"
+				}
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"main" : { "val" : 3 },
+				
+				"eagleCopyWater" : {
+					"subtype" : "spell.waterCopy3"
+				}
+			}
+		}
+		},
+		
+
+	"core:earthMagic" : {
+		"base" : {
+			"effects" : {
+				"main" : {
+					"subtype" : 8,
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				
+				"eagleCopyEarth" : {
+					"type" : "MORE_DAMAGE_FROM_SPELL",
+					"propagator" : "BATTLE_WIDE"
+
+				}
+				
+			}
+		},
+		"basic" : {
+			"effects" : {
+				"main" : { "val" : 1 },
+				
+				"eagleCopyEarth" : {
+					"subtype" : "spell.earthCopy1"
+				}
+			}
+		},
+		"advanced" : {
+			"effects" : {
+				"main" : { "val" : 2 },
+				
+				"eagleCopyEarth" : {
+					"subtype" : "spell.earthCopy2"
+				}
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"main" : { "val" : 3 },
+				
+				"eagleCopyEarth" : {
+					"subtype" : "spell.earthCopy3"
+				}
+			}
+		}
+		}
+	
+}

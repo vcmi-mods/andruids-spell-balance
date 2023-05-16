@@ -3,8 +3,18 @@
 	"description" : "This mod adds 6 spells - mass versions of 5 status-affecting spells and one extra mass spell that affects enemies' defense. They all become available when a hero learns Basic or Advanced Wisdom Skill and corresponding Expert Magic Skill. Mass versions cost more spell points.",
 	"author" : "Andruids, Kammer",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "0.8",
+	"version" : "0.9",
 	"modType" : "Spells",	
+	"changelog" :
+	{
+		"0.9"   : [ "Update to vcmi-1.2 format" ],
+		"0.85"   : [ "Fixes" ],
+		"0.8"   : [ "Initial release" ]
+	},	
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},
 
 	"skills" :
 	[

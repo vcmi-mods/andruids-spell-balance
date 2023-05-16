@@ -19,30 +19,22 @@
 			"iconScroll": "massspells/massBloodlustScroll.bmp"
  
 		},		
-		"animation":
-		{"affect":[{"defName":"SP12_", "verticalPosition":"bottom"}, "SP12_"]},
+		"animation":{
+			"affect":[ {
+				"effectName" : "bloodlust"
+			} ]
+		},
 		"sounds": {"cast": "BLOODLUS"},
 		
 		"levels" : 
 			{			
 				"base": {
 					"description": "Mass Bloodlust won't work unless the hero knows Expert Fire Magic.",
-					"cost": -1,
+					"cost": 0,
 					"power": 0,
 					"aiValue": 20,
 					"range" : "X",
-					"targetModifier":{"smart":true},
-					"effects" : {
-						"generalDamageReduction" : {
-							"type" : "PRIMARY_SKILL",
-							"subtype" : "primSkill.attack",
-							"effectRange" : "ONLY_MELEE_FIGHT",
-							"val" : 6,
-							"duration" : "N_TURNS"
-						
-						}
-
-						}
+					"targetModifier":{"smart":true}
 						},					
 
 					"none":
@@ -54,7 +46,19 @@
 					"expert":
 					{
 						"description": "{Mass Bloodlust}\n\nIncreases the hand-to-hand damage inflicted by all friendly units.\n\nEffect is twice that of Basic Bloodlust.\n",
-						"cost": 12
+						"cost": 12,
+						
+					"effects" : {
+						"generalDamageReduction" : {
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primSkill.attack",
+							"effectRange" : "ONLY_MELEE_FIGHT",
+							"val" : 6,
+							"duration" : "N_TURNS"
+						
+						}
+
+						}
 					}
                 },
 				"targetCondition" : {

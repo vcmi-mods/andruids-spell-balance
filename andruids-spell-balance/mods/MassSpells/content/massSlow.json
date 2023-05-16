@@ -27,20 +27,11 @@
 			{			
 				"base": {
 					"description": "Mass Slow won't work unless the hero knows Expert Earth Magic.",
-					"cost": -1,
+					"cost": 0,
 					"power": 1,
 					"aiValue": 20,
 					"range" : "X",
-					"targetModifier":{"smart":true},
-					"effects" : {
-						"stacksSpeed" : {
-							"addInfo" : 0,
-							"type" : "STACKS_SPEED",
-							"val" : -50,
-							"valueType" : "PERCENT_TO_ALL",
-							"duration" : "N_TURNS"
-						}
-						}
+					"targetModifier":{"smart":true}
 						},					
 						"none":
 						{},
@@ -51,7 +42,16 @@
 					"expert":
 					{
 						"description": "{Mass Slow}\n\nReduces the speed of all enemy units.\n\nThe effect is twice that of Basic Slow.\n",
-						"cost": 14
+						"cost": 14,
+						"effects" : {
+							"stacksSpeed" : {
+								"addInfo" : 0,
+								"type" : "STACKS_SPEED",
+								"val" : -50,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "N_TURNS"
+							}
+							}
 					}
                 },
 				"targetCondition" : {

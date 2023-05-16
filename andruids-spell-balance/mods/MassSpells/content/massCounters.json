@@ -1,0 +1,39 @@
+{
+	//chybaniepotrzebne
+	 "core:shield" : 
+	 {
+		"levels" : {
+				"base":{
+				"effects": {
+//				"generalDamageReduction" :	{"stacking" : "Shield"}
+			}
+			}
+		},
+		"counters": { 
+			"andruids-spell-balance.massspells:spell.massShield": true}		
+	},
+	"core:slow" : 
+	{
+	   "counters": { 
+		"andruids-spell-balance.massspells:spell.massSlow": true,
+		"andruids-spell-balance.massspells:spell.massHaste": true}		
+   },
+   	"core:haste" : 
+   {
+	  "counters": { 
+	   "andruids-spell-balance.massspells:spell.massSlow": true,
+	   "andruids-spell-balance.massspells:spell.massHaste": true}		
+  },
+   "core:bloodlust" : 
+   {
+	  "counters": { 
+		  "andruids-spell-balance.massspells:spell.massWeakness": true,
+		  "andruids-spell-balance.massspells:spell.massBloodlust": true}		
+  },
+  "core:weakness" : 
+  {
+	 "counters": { 
+		 "andruids-spell-balance.massspells:spell.massWeakness": true,
+		 "andruids-spell-balance.massspells:spell.massBloodlust": true}		
+ }       	
+}

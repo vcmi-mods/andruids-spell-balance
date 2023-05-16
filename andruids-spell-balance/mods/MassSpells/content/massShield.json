@@ -27,22 +27,11 @@
 			{			
 				"base": {
 					"description": "Mass Shield won't work unless the hero knows Expert Earth Magic.",
-					"cost": -1,
+					"cost": 0,
 					"power": 0,
 					"aiValue": 20,
 					"range" : "X",
-					"targetModifier":{"smart":true},
-					"effects" : {
-						"generalDamageReduction" : {
-							"type" : "GENERAL_DAMAGE_REDUCTION",
-							"val" : 30,
-							"subtype" : 0,
-							"duration" : "N_TURNS"
-//chybaniepotrzebne
-//							"stacking" : "Shield"							
-						}
-
-						}
+					"targetModifier":{"smart":true}
 						},					
 
 					"none":
@@ -54,7 +43,18 @@
 					"expert":
 					{
 						"description": "{Mass Shield}\n\nShields all friendly units, reducing the amount of damage received from hand-to-hand attacks.\n\nProtection is twice that of Basic Shield.\n",
-						"cost": 12
+						"cost": 12,
+						"effects" : {
+							"generalDamageReduction" : {
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"val" : 30,
+								"subtype" : 0,
+								"duration" : "N_TURNS"
+	//chybaniepotrzebne
+	//							"stacking" : "Shield"							
+							}
+	
+							}
 					}
                 },
 				"targetCondition" : {

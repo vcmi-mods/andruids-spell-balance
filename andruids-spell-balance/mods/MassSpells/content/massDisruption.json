@@ -27,20 +27,11 @@
 			{			
 				"base": {
 					"description": "Mass Disruption won't work unless the hero knows Expert Air Magic.",
-					"cost": -1,
+					"cost": 0,
 					"power": 1,
 					"aiValue": 20,
 					"range" : "X",
-					"targetModifier":{"smart":true},
-					"effects" : {
-						"primarySkill" : {
-							"type" : "PRIMARY_SKILL",
-							"subtype" : "primSkill.defence",
-							"val" : -5,
-							"valueType" : "ADDITIVE_VALUE",
-							"duration" : "PERMANENT"
-						}
-						}
+					"targetModifier":{"smart":true}
 						},					
 						"none":
 						{},
@@ -51,7 +42,25 @@
 					"expert":
 					{
 						"description": "{Mass Disruption}\n\nReduces the defense strength of all enemy units. This spell can be combined with Disrupting Ray for increased effect.\n\nThe effect is greater than that of Advanced Disrupting Ray.\n",
-						"cost": 16
+						"cost": 16,
+						"effects" : {
+							"setValue" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primSkill.defence",
+								"val" : -3,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "PERMANENT"
+							},
+							
+							"levelValue" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primSkill.defence",
+								"val" : -1,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "PERMANENT",
+								"updater" : "TIMES_STACK_LEVEL"
+							}
+							}
 					}
                 },
 				"targetCondition" : {

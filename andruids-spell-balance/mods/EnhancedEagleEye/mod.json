@@ -1,0 +1,32 @@
+{
+	"name" : "Enhanced Eagle Eye",
+	"description" : "With this modification, Eagle Eye allows you to copy your opponent's magic level",
+	"author" : "Andruids",
+	"contact" : "madaosoul@gmail.com",
+	"version" : "1.1",
+	"modType" : "Skills",
+	"changelog" :
+	{
+		"1.1"   : [ "Update to vcmi-1.2 format" ],
+		"1.0"   : [ "Initial release" ]
+	},	
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},
+
+	"skills" :
+	[
+		"config/enEagle/edited_skills.json"
+	],
+		
+	"spells" :
+	[
+		"config/enEagle/PH_spell.json"
+	],
+		
+	"artifacts" :
+	[
+		"config/enEagle/edited_arts.json"
+	]
+}

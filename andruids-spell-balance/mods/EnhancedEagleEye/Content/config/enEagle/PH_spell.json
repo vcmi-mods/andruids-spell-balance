@@ -1,0 +1,361 @@
+{
+	"airCopy1" : 
+	{
+		"type": "ability",	"targetType" : "CREATURE",
+		"name" : "Eagle Eye - Basic Air Magic",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 0, "power": 1, "defaultGainChance": 0, 		
+		"gainChance":{},"counters": {},	
+		"graphics":	{"iconEffect": "enEagle/placeholderIcon"},
+		"animation":{},
+		"sounds": {},
+		"levels" : {
+			"base":{
+
+				"description": "",
+				"cost": 0, "power": 1, "aiValue": 0,
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					}
+
+					},
+			"none":{},"basic":{},"advanced":{},"expert":{}
+		},
+		"targetCondition" : {"allOf" : {},"noneOf" : {},"anyOf" : {	}},		
+		"flags" : {
+			"positive": true,
+			"special": true
+		}
+	},
+	
+	"airCopy2" : 
+	{
+		"type": "ability",	"targetType" : "CREATURE",
+		"name" : "Eagle Eye - Advanced Air Magic",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 0, "power": 1, "defaultGainChance": 0, 		
+		"gainChance":{},"counters": {},	
+		"graphics":	{"iconEffect": "enEagle/placeholderIcon"},
+		"animation":{},
+		"sounds": {},
+		"levels" : {
+			"base":{
+
+				"description": "",
+				"cost": 0, "power": 1, "aiValue": 0,
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					}
+
+					},
+			"none":{},"basic":{},"advanced":{},"expert":{}
+		},
+		"targetCondition" : {"allOf" : {},"noneOf" : {},"anyOf" : {	}},		
+		"flags" : {
+			"positive": true,
+			"special": true
+		}
+	},
+	
+	"airCopy3" : 
+	{
+		"type": "ability",	"targetType" : "CREATURE",
+		"name" : "Eagle Eye - Expert Air Magic",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 0, "power": 1, "defaultGainChance": 0, 		
+		"gainChance":{},"counters": {},	
+		"graphics":	{"iconEffect": "enEagle/placeholderIcon"},
+		"animation":{},
+		"sounds": {},
+		"levels" : {
+			"base":{
+
+				"description": "",
+				"cost": 0, "power": 1, "aiValue": 0,
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					}
+
+					},
+			"none":{},"basic":{},"advanced":{},"expert":{}
+		},
+		"targetCondition" : {"allOf" : {},"noneOf" : {},"anyOf" : {	}},		
+		"flags" : {
+			"positive": true,
+			"special": true
+		}
+	},
+	
+	"fireCopy1" : 
+	{
+		"type": "ability",	"targetType" : "CREATURE",
+		"name" : "Eagle Eye - Basic Fire Magic",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 0, "power": 1, "defaultGainChance": 0, 		
+		"gainChance":{},"counters": {},	
+		"graphics":	{"iconEffect": "enEagle/placeholderIcon"},
+		"animation":{},
+		"sounds": {},
+		"levels" : {
+			"base":{
+
+				"description": "",
+				"cost": 0, "power": 1, "aiValue": 0,
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					}
+
+					},
+			"none":{},"basic":{},"advanced":{},"expert":{}
+		},
+		"targetCondition" : {"allOf" : {},"noneOf" : {},"anyOf" : {	}},		
+		"flags" : {
+			"positive": true,
+			"special": true
+		}
+	},
+	
+	"fireCopy2" : 
+	{
+		"type": "ability",	"targetType" : "CREATURE",
+		"name" : "Eagle Eye - Advanced Fire Magic",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 0, "power": 1, "defaultGainChance": 0, 		
+		"gainChance":{},"counters": {},	
+		"graphics":	{"iconEffect": "enEagle/placeholderIcon"},
+		"animation":{},
+		"sounds": {},
+		"levels" : {
+			"base":{
+
+				"description": "",
+				"cost": 0, "power": 1, "aiValue": 0,
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					}
+
+					},
+			"none":{},"basic":{},"advanced":{},"expert":{}
+		},
+		"targetCondition" : {"allOf" : {},"noneOf" : {},"anyOf" : {	}},		
+		"flags" : {
+			"positive": true,
+			"special": true
+		}
+	},
+	
+	"fireCopy3" : 
+	{
+		"type": "ability",	"targetType" : "CREATURE",
+		"name" : "Eagle Eye - Expert Fire Magic",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 0, "power": 1, "defaultGainChance": 0, 		
+		"gainChance":{},"counters": {},	
+		"graphics":	{"iconEffect": "enEagle/placeholderIcon"},
+		"animation":{},
+		"sounds": {},
+		"levels" : {
+			"base":{
+
+				"description": "",
+				"cost": 0, "power": 1, "aiValue": 0,
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					}
+
+					},
+			"none":{},"basic":{},"advanced":{},"expert":{}
+		},
+		"targetCondition" : {"allOf" : {},"noneOf" : {},"anyOf" : {	}},		
+		"flags" : {
+			"positive": true,
+			"special": true
+		}
+	},
+	
+	"waterCopy1" : 
+	{
+		"type": "ability",	"targetType" : "CREATURE",
+		"name" : "Eagle Eye - Basic Water Magic",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 0, "power": 1, "defaultGainChance": 0, 		
+		"gainChance":{},"counters": {},	
+		"graphics":	{"iconEffect": "enEagle/placeholderIcon"},
+		"animation":{},
+		"sounds": {},
+		"levels" : {
+			"base":{
+
+				"description": "",
+				"cost": 0, "power": 1, "aiValue": 0,
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					}
+
+					},
+			"none":{},"basic":{},"advanced":{},"expert":{}
+		},
+		"targetCondition" : {"allOf" : {},"noneOf" : {},"anyOf" : {	}},		
+		"flags" : {
+			"positive": true,
+			"special": true
+		}
+	},
+	
+	"waterCopy2" : 
+	{
+		"type": "ability",	"targetType" : "CREATURE",
+		"name" : "Eagle Eye - Advanced Water Magic",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 0, "power": 1, "defaultGainChance": 0, 		
+		"gainChance":{},"counters": {},	
+		"graphics":	{"iconEffect": "enEagle/placeholderIcon"},
+		"animation":{},
+		"sounds": {},
+		"levels" : {
+			"base":{
+
+				"description": "",
+				"cost": 0, "power": 1, "aiValue": 0,
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					}
+
+					},
+			"none":{},"basic":{},"advanced":{},"expert":{}
+		},
+		"targetCondition" : {"allOf" : {},"noneOf" : {},"anyOf" : {	}},		
+		"flags" : {
+			"positive": true,
+			"special": true
+		}
+	},
+	
+	"waterCopy3" : 
+	{
+		"type": "ability",	"targetType" : "CREATURE",
+		"name" : "Eagle Eye - Expert Water Magic",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 0, "power": 1, "defaultGainChance": 0, 		
+		"gainChance":{},"counters": {},	
+		"graphics":	{"iconEffect": "enEagle/placeholderIcon"},
+		"animation":{},
+		"sounds": {},
+		"levels" : {
+			"base":{
+
+				"description": "",
+				"cost": 0, "power": 1, "aiValue": 0,
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					}
+
+					},
+			"none":{},"basic":{},"advanced":{},"expert":{}
+		},
+		"targetCondition" : {"allOf" : {},"noneOf" : {},"anyOf" : {	}},		
+		"flags" : {
+			"positive": true,
+			"special": true
+		}
+	},
+	
+	"earthCopy1" : 
+	{
+		"type": "ability",	"targetType" : "CREATURE",
+		"name" : "Eagle Eye - Basic Earth Magic",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 0, "power": 1, "defaultGainChance": 0, 		
+		"gainChance":{},"counters": {},	
+		"graphics":	{"iconEffect": "enEagle/placeholderIcon"},
+		"animation":{},
+		"sounds": {},
+		"levels" : {
+			"base":{
+
+				"description": "",
+				"cost": 0, "power": 1, "aiValue": 0,
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					}
+
+					},
+			"none":{},"basic":{},"advanced":{},"expert":{}
+		},
+		"targetCondition" : {"allOf" : {},"noneOf" : {},"anyOf" : {	}},		
+		"flags" : {
+			"positive": true,
+			"special": true
+		}
+	},
+	
+	"earthCopy2" : 
+	{
+		"type": "ability",	"targetType" : "CREATURE",
+		"name" : "Eagle Eye - Advanced Earth Magic",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 0, "power": 1, "defaultGainChance": 0, 		
+		"gainChance":{},"counters": {},	
+		"graphics":	{"iconEffect": "enEagle/placeholderIcon"},
+		"animation":{},
+		"sounds": {},
+		"levels" : {
+			"base":{
+
+				"description": "",
+				"cost": 0, "power": 1, "aiValue": 0,
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					}
+
+					},
+			"none":{},"basic":{},"advanced":{},"expert":{}
+		},
+		"targetCondition" : {"allOf" : {},"noneOf" : {},"anyOf" : {	}},		
+		"flags" : {
+			"positive": true,
+			"special": true
+		}
+	},
+	
+	"earthCopy3" : 
+	{
+		"type": "ability",	"targetType" : "CREATURE",
+		"name" : "Eagle Eye - Expert Earth Magic",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 0, "power": 1, "defaultGainChance": 0, 		
+		"gainChance":{},"counters": {},	
+		"graphics":	{"iconEffect": "enEagle/placeholderIcon"},
+		"animation":{},
+		"sounds": {},
+		"levels" : {
+			"base":{
+
+				"description": "",
+				"cost": 0, "power": 1, "aiValue": 0,
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					}
+
+					},
+			"none":{},"basic":{},"advanced":{},"expert":{}
+		},
+		"targetCondition" : {"allOf" : {},"noneOf" : {},"anyOf" : {	}},		
+		"flags" : {
+			"positive": true,
+			"special": true
+		}
+	}
+}

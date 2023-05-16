@@ -27,20 +27,11 @@
 			{			
 				"base": {
 					"description": "Mass Haste won't work unless the hero knows Expert Air Magic.",
-					"cost": -1,
+					"cost": 0,
 					"power": 0,
 					"aiValue": 20,
 					"range" : "X",
-					"targetModifier":{"smart":true},
-					"effects" : {
-						"stacksSpeed" : {
-							"addInfo" : 0,
-							"type" : "STACKS_SPEED",
-							"val" : 5,
-							"duration" : "N_TURNS"
-						}
-
-						}
+					"targetModifier":{"smart":true}
 						},					
 
 					"none":
@@ -52,7 +43,16 @@
 					"expert":
 					{
 						"description": "{Mass Haste}\n\nIncreases the speed of all friendly units.\n\nEffect is nearly twice that of Basic Haste.\n",
-						"cost": 13
+						"cost": 13,
+						"effects" : {
+							"stacksSpeed" : {
+								"addInfo" : 0,
+								"type" : "STACKS_SPEED",
+								"val" : 5,
+								"duration" : "N_TURNS"
+							}
+	
+							}
 					}
                 },
 				"targetCondition" : {

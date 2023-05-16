@@ -1,0 +1,51 @@
+{
+	"core:birdOfPerception":
+	{
+		"text" : {
+			"description" : "{Bird of Perception}\r\n\r\nThis figurine increases your Eagle Eye skill by 10%."
+		},
+		"bonuses" : [
+			{
+				"subtype" : 0,
+				"type" : "LEARN_BATTLE_SPELL_CHANCE",
+				"val" : 10,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		],
+		"index" : 63,
+		"type" : ["HERO"]
+	},
+	"core:stoicWatchman":
+	{
+		"text" : {
+			"description" : "{Stoic Watchman}\r\n\r\nThis figurine increases your Eagle Eye skill by 20%."
+		},
+		"bonuses" : [
+			{
+				"subtype" : 0,
+				"type" : "LEARN_BATTLE_SPELL_CHANCE",
+				"val" : 20,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		],
+		"index" : 64,
+		"type" : ["HERO"]
+	},
+	"core:emblemOfCognizance":
+	{
+		"text" : {
+			"description" : "{Emblem of Cognizance}\r\n\r\nThis item increases your Eagle Eye skill by 30%."
+		},
+		"bonuses" : [
+			{
+				"subtype" : 0,
+				"type" : "LEARN_BATTLE_SPELL_CHANCE",
+				"val" : 30,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		],
+		"index" : 65,
+		"type" : ["HERO"]
+	}
+	
+}
