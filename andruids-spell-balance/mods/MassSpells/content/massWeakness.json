@@ -20,7 +20,7 @@
  
 		},		
 		"animation":
-		{"affect":[{"defName":"C0ACID", "verticalPosition":"bottom"}, "C0ACID"]},
+		{"affect":[{"defName":"C17SPW0", "verticalPosition":"bottom"}, "C17SPW0"]},
 		"sounds": {"cast": "WEAKNESS"},
 		
 		"levels" : 
