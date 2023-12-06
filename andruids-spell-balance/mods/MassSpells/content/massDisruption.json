@@ -46,7 +46,7 @@
 						"effects" : {
 							"setValue" : {
 								"type" : "PRIMARY_SKILL",
-								"subtype" : "primSkill.defence",
+								"subtype" : "defence",
 								"val" : -3,
 								"valueType" : "ADDITIVE_VALUE",
 								"duration" : "PERMANENT"
@@ -54,7 +54,7 @@
 							
 							"levelValue" : {
 								"type" : "PRIMARY_SKILL",
-								"subtype" : "primSkill.defence",
+								"subtype" : "defence",
 								"val" : -1,
 								"valueType" : "ADDITIVE_VALUE",
 								"duration" : "PERMANENT",

@@ -48,10 +48,8 @@
 							"generalDamageReduction" : {
 								"type" : "GENERAL_DAMAGE_REDUCTION",
 								"val" : 30,
-								"subtype" : 0,
-								"duration" : "N_TURNS"
-	//chybaniepotrzebne
-	//							"stacking" : "Shield"							
+								"subtype" : "damageTypeMelee",
+								"duration" : "N_TURNS"					
 							}
 	
 							}

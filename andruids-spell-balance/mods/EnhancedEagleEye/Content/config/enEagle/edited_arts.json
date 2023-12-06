@@ -6,7 +6,6 @@
 		},
 		"bonuses" : [
 			{
-				"subtype" : 0,
 				"type" : "LEARN_BATTLE_SPELL_CHANCE",
 				"val" : 10,
 				"valueType" : "ADDITIVE_VALUE"
@@ -22,7 +21,6 @@
 		},
 		"bonuses" : [
 			{
-				"subtype" : 0,
 				"type" : "LEARN_BATTLE_SPELL_CHANCE",
 				"val" : 20,
 				"valueType" : "ADDITIVE_VALUE"
@@ -38,7 +36,6 @@
 		},
 		"bonuses" : [
 			{
-				"subtype" : 0,
 				"type" : "LEARN_BATTLE_SPELL_CHANCE",
 				"val" : 30,
 				"valueType" : "ADDITIVE_VALUE"

@@ -51,7 +51,7 @@
 					"effects" : {
 						"generalDamageReduction" : {
 							"type" : "PRIMARY_SKILL",
-							"subtype" : "primSkill.attack",
+							"subtype" : "attack",
 							"effectRange" : "ONLY_MELEE_FIGHT",
 							"val" : 6,
 							"duration" : "N_TURNS"

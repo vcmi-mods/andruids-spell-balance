@@ -46,7 +46,7 @@
 						"effects" : {
 							"primarySkill" : {
 								"type" : "PRIMARY_SKILL",
-								"subtype" : "primSkill.attack",
+								"subtype" : "attack",
 								"val" : -6,
 								"duration" : "N_TURNS"
 							}

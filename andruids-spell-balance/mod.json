@@ -3,14 +3,15 @@
 	"description" : "Modifications of Heroes 3 spells system.",
 	"author" : "Andruids",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "0.9",
+	"version" : "1.0",
 	"modType" : "Spells",
 	"compatibility" :
 	{
-		"min" : "1.2.0"
+		"min" : "1.4.0"
 	},
 	"changelog" :
 	{
+		"1.0"   : [ "Update to vcmi-1.4 format"],
 		"0.9"   : [ "Update to vcmi-1.2", "Added Enhanced Eagle Eye"],
 		"0.8"   : [ "Fixes" ],
 		"0.7"   : [ "Initial release" ]

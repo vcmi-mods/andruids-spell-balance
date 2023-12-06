@@ -4,12 +4,10 @@
 		"base" : {
 			"effects" : {
 				"main" : {
-					"subtype" : 0,
 					"type" : "LEARN_BATTLE_SPELL_CHANCE",
 					"valueType" : "BASE_NUMBER"
 				},
 				"val2" : {
-					"subtype" : -1,
 					"type" : "LEARN_BATTLE_SPELL_LEVEL_LIMIT",
 					"valueType" : "BASE_NUMBER"
 				}
@@ -532,6 +530,5 @@
 				}
 			}
 		}
-		}
-	
+	}
 }
