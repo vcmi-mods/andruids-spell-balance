@@ -1,6 +1,6 @@
 {
 	"name" : "Level 2 Slow",
-	"description" : "With this modification, Slow spell is moved to level 2 and costs 1 more spell point without Earth Magic Skill).",
+	"description" : "With this modification, Slow spell is moved to level 2 and costs 1 more spell point without Earth Magic Skill.",
 	"author" : "Andruids",
 	"contact" : "madaosoul@gmail.com",
 	"version" : "1.0",
@@ -9,6 +9,9 @@
 	"spells" :
 	[
 		"lv2slow.json"
-	]
-
+	],
+	"czech" : {
+		"name": "Zpomalení 2. úroveň",
+		"description": "Tato modifikace přesouvá kouzlo Zpomalení z 1. úrovně na 2. úroveň a zvyšuje jeho cenu o 1 bod magické energie pro hrdiny bez dovednosti magie země."
+	}
 }

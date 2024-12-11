@@ -26,7 +26,7 @@
 		"levels" : 
 			{			
 				"base": {
-					"description": "Mass Shield won't work unless the hero knows Expert Earth Magic.",
+					"description": "{Mass Shield}\r\n\r\nMass Shield won't work unless the hero knows Expert Earth Magic.",
 					"cost": 0,
 					"power": 0,
 					"aiValue": 20,
@@ -35,14 +35,20 @@
 						},					
 
 					"none":
-					{},
+					{
+						"description": "{Mass Shield}\r\n\r\nMass Shield won't work unless the hero knows Expert Earth Magic.",
+					},
 					"basic":
-					{},
+					{
+						"description": "{Mass Shield}\r\n\r\nMass Shield won't work unless the hero knows Expert Earth Magic.",
+					},
 					"advanced":
-					{},
+					{
+						"description": "{Mass Shield}\r\n\r\nMass Shield won't work unless the hero knows Expert Earth Magic.",
+					},
 					"expert":
 					{
-						"description": "{Mass Shield}\n\nShields all friendly units, reducing the amount of damage received from hand-to-hand attacks.\n\nProtection is twice that of Basic Shield.\n",
+						"description": "{Mass Shield}\r\n\r\nShields all friendly units, reducing the amount of damage received from hand-to-hand attacks.\n\nProtection is twice that of Basic Shield.",
 						"cost": 12,
 						"effects" : {
 							"generalDamageReduction" : {
@@ -51,10 +57,9 @@
 								"subtype" : "damageTypeMelee",
 								"duration" : "N_TURNS"					
 							}
-	
-							}
+						}
 					}
-                },
+                		},
 				"targetCondition" : {
 					"allOf" : {},
 					"anyOf" : {},			
