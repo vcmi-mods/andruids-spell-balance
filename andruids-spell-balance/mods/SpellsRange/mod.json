@@ -11,7 +11,7 @@
 		"spellRange.json"
 	],
 	"czech" : {
-		"name": "Poloměr kouzel",
+		"name": "Rozsah kouzel",
 		"description": "S touto úpravou nyní všechna kouzla, která obvykle působí na všechny jednotky, ovlivňují oblast o poloměru 2, 3 nebo 4 polí. Nevztahuje se na kouzlo Zrušit kouzla",
 		"translations" : [
 			"translation/SpellsRange/czech.json"
