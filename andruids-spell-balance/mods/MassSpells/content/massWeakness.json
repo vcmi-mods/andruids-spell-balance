@@ -26,7 +26,7 @@
 		"levels" : 
 			{			
 				"base": {
-					"description": "Mass Weakness won't work unless the hero knows Expert Water Magic.",
+					"description": "{Mass Weakness}\r\n\r\nMass Weakness won't work unless the hero knows Expert Water Magic.",
 					"cost": 0,
 					"power": 1,
 					"aiValue": 20,
@@ -34,14 +34,20 @@
 					"targetModifier":{"smart":true}
 						},					
 						"none":
-						{},
+						{
+							"description": "{Mass Weakness}\r\n\r\nMass Weakness won't work unless the hero knows Expert Water Magic.",
+						},
 						"basic":
-						{},
+						{
+							"description": "{Mass Weakness}\r\n\r\nMass Weakness won't work unless the hero knows Expert Water Magic.",
+						},
 						"advanced":
-						{},
+						{
+							"description": "{Mass Weakness}\r\n\r\nMass Weakness won't work unless the hero knows Expert Water Magic.",
+						},
 					"expert":
 					{
-						"description": "{Mass Weakness}\n\nReduces the attack strength of all enemy units.\n\nThe effect is twice that of Basic Weakness.\n",
+						"description": "{Mass Weakness}\r\n\r\nReduces the attack strength of all enemy units.\n\nThe effect is twice that of Basic Weakness.",
 						"cost": 14,
 						"effects" : {
 							"primarySkill" : {
@@ -52,7 +58,7 @@
 							}
 							}
 					}
-                },
+                		},
 				"targetCondition" : {
 					"allOf" : {},
 					"anyOf" : {},			

@@ -1,0 +1,8 @@
+{
+	"artifact.core.birdOfPerception.description" : "{Pták vnímání }\n\nTato soška ptáka zvýší tvoji druhotnou schopnost orlí oko o 10%.",
+	"artifact.core.emblemOfCognizance.description" : "{Emblém poznání }\n\nEmblém zvýší tvoji druhotnou schopnost orlí oko o 30%.",
+	"artifact.core.stoicWatchman.description" : "{Nehybný pozorovatel}\n\nTato soška zvýší tvoji druhotnou schopnost orlí oko o 20%.",
+	"skill.core.eagleEye.description.advanced" : "{Lepší orlí oko}\n\nSchopnost lepší orlí oko dává hrdinovi 60% šanci naučit se kouzlo do 3. stupně, které proti němu v boji použije jiný hrdina. Pokud váš hrdina narazí na soupeře ovládajícího magii na expertní úrovni, získává v boji schopnost sesílat kouzla ze stejného typu magie na expertní úrovni.",
+	"skill.core.eagleEye.description.basic" : "{Základní orlí oko}\n\nZákladní orlí oko dává hrdinovi 50% šanci naučit se kouzlo do 2. stupně, které proti němu v boji použije jiný hrdina. Pokud váš hrdina narazí na soupeře ovládajícího magii na expertní úrovni, získává v boji schopnost sesílat kouzla ze stejného typu magie na expertní úrovni.",
+	"skill.core.eagleEye.description.expert" : "{Expert orlí oko}\n\nSchopnost expert orlí oko dává hrdinovi 70% šanci naučit se kouzlo do 4. stupně, které proti němu v boji použije jiný hrdina. Pokud váš hrdina narazí na soupeře ovládajícího magii na expertní úrovni, získává v boji schopnost sesílat kouzla ze stejného typu magie na expertní úrovni."
+}

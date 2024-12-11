@@ -1,0 +1,18 @@
+{
+    "core:waterMagic": {
+        "base": {
+            "effects": {
+                "massWeakness": {
+                    "type": "SPELL"
+                }
+            }
+        },
+        "expert": {
+            "effects": {
+                "massWeakness": {
+                    "subtype": "spell.massWeakness"
+                }
+            }
+        }
+    }
+}

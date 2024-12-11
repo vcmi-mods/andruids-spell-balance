@@ -3,7 +3,7 @@
 	"description" : "Modifications of Heroes 3 spells system.",
 	"author" : "Andruids",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "1.0",
+	"version" : "1.1",
 	"modType" : "Spells",
 	"compatibility" :
 	{
@@ -11,9 +11,17 @@
 	},
 	"changelog" :
 	{
+		"1.1"   : [ "Czech translation by George King", "Added option to choose between Mass spells appearence to Wisdom+Expert Magic School (enabled by default) or just Expert Magic School" ],
 		"1.0"   : [ "Update to vcmi-1.4 format"],
 		"0.9"   : [ "Update to vcmi-1.2", "Added Enhanced Eagle Eye"],
 		"0.8"   : [ "Fixes" ],
 		"0.7"   : [ "Initial release" ]
+	},
+	"czech" : {
+		"name" : "Nové vyvážení magie",
+		"description" : "Úpravy kouzel v Heroes 3 pro lepší herní zážitek.",
+		"translations" : [
+			"translation/andruids-spell-balance/czech.json"
+		]
 	}
 }

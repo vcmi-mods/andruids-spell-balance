@@ -29,7 +29,7 @@
 		"levels" : 
 			{			
 				"base": {
-					"description": "Mass Bloodlust won't work unless the hero knows Expert Fire Magic.",
+					"description": "{Mass Bloodlust}\r\n\r\nMass Bloodlust won't work unless the hero knows Expert Fire Magic.",
 					"cost": 0,
 					"power": 0,
 					"aiValue": 20,
@@ -38,29 +38,33 @@
 						},					
 
 					"none":
-					{},
+					{
+						"description": "{Mass Bloodlust}\r\n\r\nMass Bloodlust won't work unless the hero knows Expert Fire Magic.",
+					},
 					"basic":
-					{},
+					{
+						"description": "{Mass Bloodlust}\r\n\r\nMass Bloodlust won't work unless the hero knows Expert Fire Magic.",
+					},
 					"advanced":
-					{},
+					{
+						"description": "{Mass Bloodlust}\r\n\r\nMass Bloodlust won't work unless the hero knows Expert Fire Magic.",
+					},
 					"expert":
 					{
-						"description": "{Mass Bloodlust}\n\nIncreases the hand-to-hand damage inflicted by all friendly units.\n\nEffect is twice that of Basic Bloodlust.\n",
+						"description": "{Mass Bloodlust}\r\n\r\nIncreases the hand-to-hand damage inflicted by all friendly units.\n\nEffect is twice that of Basic Bloodlust.",
 						"cost": 12,
 						
-					"effects" : {
-						"generalDamageReduction" : {
-							"type" : "PRIMARY_SKILL",
-							"subtype" : "attack",
-							"effectRange" : "ONLY_MELEE_FIGHT",
-							"val" : 6,
-							"duration" : "N_TURNS"
-						
-						}
-
+						"effects" : {
+							"generalDamageReduction" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "attack",
+								"effectRange" : "ONLY_MELEE_FIGHT",
+								"val" : 6,
+								"duration" : "N_TURNS"
+							}
 						}
 					}
-                },
+                		},
 				"targetCondition" : {
 					"allOf" : {},
 					"anyOf" : {},			

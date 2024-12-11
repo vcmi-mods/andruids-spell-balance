@@ -1,0 +1,26 @@
+{
+	"name": "School of Magic",
+	"description": "New mass spells will appear in the spellbook after mastering the corresponding expert magic skill.",
+	"author" : "Andruids, Kammer",
+	"contact" : "madaosoul@gmail.com",
+	"version" : "0.91",
+	"modType" : "Spells",
+	"depends" : [ "andruids-spell-balance.MassSpells" ],
+	"conflicts" : [ "andruids-spell-balance.MassSpells.wisdom+magicSchool" ],
+	"keepDisabled" : true,
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},
+	"skills" :
+	[
+		"massAirMagic.json",
+		"massEarthMagic.json",
+		"massFireMagic.json",
+		"massWaterMagic.json"
+	],
+	"czech" : {
+		"name": "Škola magie",
+		"description": "Nová hromadná kouzla se objeví v knize kouzel po získaní dané expertní magie."
+	}
+}

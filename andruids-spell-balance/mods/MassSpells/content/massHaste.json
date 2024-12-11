@@ -26,23 +26,26 @@
 		"levels" : 
 			{			
 				"base": {
-					"description": "Mass Haste won't work unless the hero knows Expert Air Magic.",
+					"description": "{Mass Haste}\r\n\r\nMass Haste won't work unless the hero knows Expert Air Magic.",
 					"cost": 0,
 					"power": 0,
 					"aiValue": 20,
 					"range" : "X",
 					"targetModifier":{"smart":true}
 						},					
-
-					"none":
-					{},
+					"none": {
+						"description": "{Mass Haste}\r\n\r\nMass Haste won't work unless the hero knows Expert Air Magic.",
+					},
 					"basic":
-					{},
-					"advanced":
-					{},
-					"expert":
 					{
-						"description": "{Mass Haste}\n\nIncreases the speed of all friendly units.\n\nEffect is nearly twice that of Basic Haste.\n",
+						"description": "{Mass Haste}\r\n\r\nMass Haste won't work unless the hero knows Expert Air Magic.",
+					},
+					"advanced": {
+						"description": "{Mass Haste}\r\n\r\nMass Haste won't work unless the hero knows Expert Air Magic.",
+					},
+					"expert":
+					{	
+						"description": "{Mass Haste}\r\n\r\nIncreases the speed of all friendly units.\n\nEffect is nearly twice that of Basic Haste.",
 						"cost": 13,
 						"effects" : {
 							"stacksSpeed" : {
@@ -51,10 +54,9 @@
 								"val" : 5,
 								"duration" : "N_TURNS"
 							}
-	
-							}
+						}
 					}
-                },
+                		},
 				"targetCondition" : {
 					"allOf" : {},
 					"anyOf" : {},			

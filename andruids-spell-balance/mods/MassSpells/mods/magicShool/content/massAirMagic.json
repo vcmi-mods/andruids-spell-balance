@@ -1,0 +1,24 @@
+{
+    "core:airMagic": {
+        "base": {
+            "effects": {
+                "massDisruption": {
+                    "type": "SPELL"
+                },
+                "massHaste": {
+                    "type": "SPELL"
+                }
+            }
+        },
+        "expert": {
+            "effects": {
+                "massDisruption": {
+                    "subtype": "spell.massDisruption"
+                },
+                "massHaste": {
+                    "subtype": "spell.massHaste"
+                }
+            }
+        }
+    }
+}

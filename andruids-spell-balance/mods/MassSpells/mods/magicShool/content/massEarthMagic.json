@@ -1,0 +1,24 @@
+{
+    "core:earthMagic": {
+        "base": {
+            "effects": {
+                "massShield": {
+                    "type": "SPELL"
+                },
+                "massSlow": {
+                    "type": "SPELL"
+                }
+            }
+        },
+        "expert": {
+            "effects": {
+                "massShield": {
+                    "subtype": "spell.massShield"
+                },
+                "massSlow": {
+                    "subtype": "spell.massSlow"
+                }
+            }
+        }
+    }
+}
