@@ -1,0 +1,114 @@
+{
+	"core:sanya":
+	{
+		"specialty" : {
+			"bonuses" : {				
+			"visionsHeroes" :
+			{
+				"type" : "VISIONS",
+				"subtype" : "visionsHeroes",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO"
+			}
+			}
+		}
+	},
+	
+	"core:malcom":
+	{
+		"specialty" : {
+			"bonuses" : {				
+			"visionsHeroes" :
+			{
+				"type" : "VISIONS",
+				"subtype" : "visionsHeroes",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO"
+			}
+			}
+		}
+	},
+	
+	"core:serena":
+	{
+		"specialty" : {
+			"bonuses" : {				
+			"visionsHeroes" :
+			{
+				"type" : "VISIONS",
+				"subtype" : "visionsHeroes",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO"
+			}
+			}
+		}
+	},
+	
+	"core:nimbus":
+	{
+		"specialty" : {
+			"bonuses" : {				
+			"visionsHeroes" :
+			{
+				"type" : "VISIONS",
+				"subtype" : "visionsHeroes",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO"
+			}
+			}
+		}
+	},
+	
+	"core:geon":
+	{
+		"specialty" : {
+			"bonuses" : {				
+			"visionsHeroes" :
+			{
+				"type" : "VISIONS",
+				"subtype" : "visionsHeroes",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO"
+			}
+			}
+		}
+	},
+	
+	"core:oris":
+	{
+		"specialty" : {
+			"bonuses" : {				
+			"visionsHeroes" :
+			{
+				"type" : "VISIONS",
+				"subtype" : "visionsHeroes",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO"
+			}
+			}
+		}
+	},
+	
+	"core:tiva":
+	{
+		"specialty" : {
+			"bonuses" : {				
+			"visionsHeroes" :
+			{
+				"type" : "VISIONS",
+				"subtype" : "visionsHeroes",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO"
+			}
+			}
+		}
+	}
+	
+}

@@ -14,10 +14,10 @@
 			}
 		},
 		"basic" : {
-		"description":"{Basic Eagle Eye}\n\nBasic Eagle Eye gives your hero a 50% chance to learn any spell up to 2nd level used in combat. Also, when facing a hero who knows any Basic magic skill, your hero can cast spells from the same school on the Basic level.",			
+		"description":"{Basic Eagle Eye}\n\nBasic Eagle Eye gives your hero a 50% chance to learn any spell up to 3rd level used in combat. Also, when facing a hero who knows any Basic magic skill, your hero can cast spells from the same school on the Basic level.",			
 			"effects" : {
 				"main" : { "val" : 50 },
-				"val2" : { "val" : 2 },
+				"val2" : { "val" : 3 },
 				
 				
 				"airCopy1" : {
@@ -72,10 +72,10 @@
 			}
 		},
 		"advanced" : {
-		"description":"{Advanced Eagle Eye}\n\nAdvanced Eagle Eye gives your hero a 60% chance to learn any spell up to 3th level used in combat. Also, when facing a hero who knows any Advanced magic skill, your hero can cast spells from the same school on the Advanced level.",		
+		"description":"{Advanced Eagle Eye}\n\nAdvanced Eagle Eye gives your hero a 60% chance to learn any spell up to 4th level used in combat. Also, when facing a hero who knows any Advanced magic skill, your hero can cast spells from the same school on the Advanced level.",		
 			"effects" : {
 				"main" : { "val" : 60 },
-				"val2" : { "val" : 3 },
+				"val2" : { "val" : 4 },
 				
 				
 				"airCopy1" : {
@@ -172,10 +172,10 @@
 			}
 		},
 		"expert" : {
-		"description":"{Expert Eagle Eye}\n\nExpert Eagle Eye gives your hero a 70% chance to learn any spell up to 4th level used in combat. Also, when facing a hero who knows any Expert magic skill, your hero can cast spells from the same school on the Expert level.",
+		"description":"{Expert Eagle Eye}\n\nExpert Eagle Eye gives your hero a 70% chance to learn any spell used in combat. Also, when facing a hero who knows any Expert magic skill, your hero can cast spells from the same school on the Expert level.",
 			"effects" : {
 				"main" : { "val" : 70 },
-				"val2" : { "val" : 4 },
+				"val2" : { "val" : 5 },
 				
 				
 				"airCopy1" : {
