@@ -1,9 +1,9 @@
 {
 	"name" : "Enhanced Eagle Eye",
-	"description" : "With this modification, Eagle Eye allows you to copy your opponent's magic level",
+	"description" : "With this modification, Eagle Eye: allows you to copy your opponent's magic level; is buffed (expert allows to learn 5th level spells); eagle eye artifacts' vvalues are doubled; Eagle Eye specialists pry at enemy heroes as if they were under advanced 'Visions'.",
 	"author" : "Andruids",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "1.1",
+	"version" : "2.0",
 	"modType" : "Skills",
 	"changelog" :
 	{
@@ -34,5 +34,10 @@
 	"artifacts" :
 	[
 		"config/enEagle/edited_arts.json"
+	],
+
+	"heroes" :
+	[
+		"config/enEagle/edited_heroes.json"
 	]
 }
