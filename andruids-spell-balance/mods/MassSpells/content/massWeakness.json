@@ -29,7 +29,7 @@
 					"description": "{Mass Weakness}\r\n\r\nMass Weakness won't work unless the hero knows Expert Water Magic.",
 					"cost": 0,
 					"power": 1,
-					"aiValue": 20,
+//					"aiValue": 20,
 					"range" : "X",
 					"targetModifier":{"smart":true}
 						},					

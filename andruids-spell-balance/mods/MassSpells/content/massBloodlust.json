@@ -32,7 +32,7 @@
 					"description": "{Mass Bloodlust}\r\n\r\nMass Bloodlust won't work unless the hero knows Expert Fire Magic.",
 					"cost": 0,
 					"power": 0,
-					"aiValue": 20,
+//					"aiValue": 20,
 					"range" : "X",
 					"targetModifier":{"smart":true}
 						},					

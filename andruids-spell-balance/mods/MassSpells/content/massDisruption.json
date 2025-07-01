@@ -29,7 +29,7 @@
 					"description": "{Mass Disruption}\r\n\r\nMass Disruption won't work unless the hero knows Expert Air Magic.",
 					"cost": 0,
 					"power": 1,
-					"aiValue": 20,
+//					"aiValue": 20,
 					"range" : "X",
 					"targetModifier":{"smart":true}
 						},					

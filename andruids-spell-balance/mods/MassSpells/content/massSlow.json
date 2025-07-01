@@ -29,7 +29,7 @@
 					"description": "{Mass Slow}\r\n\r\nMass Slow won't work unless the hero knows Expert Earth Magic.",
 					"cost": 0,
 					"power": 1,
-					"aiValue": 20,
+//					"aiValue": 20,
 					"range" : "X",
 					"targetModifier":{"smart":true}
 						},					
@@ -51,7 +51,7 @@
 						"cost": 14,
 						"effects" : {
 							"stacksSpeed" : {
-								"addInfo" : 0,
+//								"addInfo" : 0,
 								"type" : "STACKS_SPEED",
 								"val" : -50,
 								"valueType" : "PERCENT_TO_ALL",

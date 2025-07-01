@@ -25,9 +25,9 @@
 					"propagator" : "HERO",
 					"subtype" : "spellSchool.air",
 					"val" : 1,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy1"]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy2"]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy3"]	} ]
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy1", null ]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy2", null ]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy3", null ]	} ]
 
 				},
 				
@@ -38,9 +38,9 @@
 					"propagator" : "HERO",
 					"subtype" : "spellSchool.fire",
 					"val" : 1,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy1"]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy2"]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy3"]	} ]
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy1", null ]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy2", null ]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy3", null ]	} ]
 
 				},
 				
@@ -51,9 +51,9 @@
 					"propagator" : "HERO",
 					"subtype" : "spellSchool.water",
 					"val" : 1,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy1"]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy2"]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy3"]	} ]
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy1", null ]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy2", null ]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy3", null ]	} ]
 
 				},
 				
@@ -64,9 +64,9 @@
 					"propagator" : "HERO",
 					"subtype" : "spellSchool.earth",
 					"val" : 1,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy1"]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy2"]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy3"]	} ]
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy1", null ]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy2", null ]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy3", null ]	} ]
 
 				}
 			}
@@ -86,7 +86,7 @@
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy1"]
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy1", null ]
 						}
 					]
 
@@ -96,8 +96,8 @@
 					"propagator" : "HERO",
 					"subtype" : "spellSchool.air",
 					"val" : 2,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy2"]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy3"]	} ]
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy2", null ]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy3", null ]	} ]
 
 				},
 				
@@ -109,7 +109,7 @@
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy1"]
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy1", null ]
 						}
 					]
 
@@ -119,8 +119,8 @@
 					"propagator" : "HERO",
 					"subtype" : "spellSchool.fire",
 					"val" : 2,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy2"]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy3"]	} ]
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy2", null ]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy3", null ]	} ]
 
 				},
 				
@@ -132,7 +132,7 @@
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy1"]
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy1", null ]
 						}
 					]
 
@@ -142,8 +142,8 @@
 					"propagator" : "HERO",
 					"subtype" : "spellSchool.water",
 					"val" : 2,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy2"]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy3"]	} ]
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy2", null ]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy3", null ]	} ]
 
 				},
 				
@@ -155,7 +155,7 @@
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy1"]
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy1", null ]
 						}
 					]
 
@@ -165,8 +165,8 @@
 					"propagator" : "HERO",
 					"subtype" : "spellSchool.earth",
 					"val" : 2,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy2"]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy3"]	} ]
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy2", null ]	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy3", null ]	} ]
 
 				}
 			}
@@ -186,7 +186,7 @@
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy1"]
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy1", null ]
 						}
 					]
 
@@ -199,7 +199,7 @@
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy2"]
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy2", null ]
 						}
 					]
 
@@ -213,7 +213,7 @@
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy3"]
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy3", null ]
 						}
 					]
 
@@ -227,7 +227,7 @@
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy1"]
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy1", null ]
 						}
 					]
 
@@ -240,7 +240,7 @@
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy2"]
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy2", null ]
 						}
 					]
 
@@ -254,7 +254,7 @@
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy3"]
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy3", null ]
 						}
 					]
 
@@ -268,7 +268,7 @@
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy1"]
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy1", null ]
 						}
 					]
 
@@ -281,7 +281,7 @@
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy2"]
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy2", null ]
 						}
 					]
 
@@ -295,7 +295,7 @@
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy3"]
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy3", null ]
 						}
 					]
 
@@ -309,7 +309,7 @@
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy1"]
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy1", null ]
 						}
 					]
 
@@ -322,7 +322,7 @@
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy2"]
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy2", null ]
 						}
 					]
 
@@ -336,7 +336,7 @@
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy3"]
+							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy3", null ]
 						}
 					]
 
