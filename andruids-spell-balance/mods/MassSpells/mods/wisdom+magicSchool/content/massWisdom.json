@@ -25,63 +25,63 @@
 		"basic" : {
 			"effects" : {
 				"massShield" : {
-					"subtype" : "spell.massShield"
+					"subtype" : "massShield"
 					//"limiters" : [
 					//	{
 					//	"type" : "HAS_ANOTHER_BONUS_LIMITER",
-					//	"parameters" : [ "SPELL", "spell.shield" ]
+					//	"parameters" : [ "SPELL", "shield" ]
 					//	}
 					//]			
 				},
 				"massHaste" : {
-					"subtype" : "spell.massHaste"
+					"subtype" : "massHaste"
 				},
 				"massBloodlust" : {
-					"subtype" : "spell.massBloodlust"
+					"subtype" : "massBloodlust"
 				}
 			}
 		},
 		"advanced" : {
 			"effects" : {
 				"massShield" : {
-					"subtype" : "spell.massShield"
+					"subtype" : "massShield"
 				},		
 				"massDisruption" : {
-					"subtype" : "spell.massDisruption"
+					"subtype" : "massDisruption"
 				},
 				"massBloodlust" : {
-					"subtype" : "spell.massBloodlust"
+					"subtype" : "massBloodlust"
 				},
 				"massWeakness" : {
-					"subtype" : "spell.massWeakness"
+					"subtype" : "massWeakness"
 				},						
 				"massHaste" : {
-					"subtype" : "spell.massHaste"
+					"subtype" : "massHaste"
 				},				
 				"massSlow" : {
-					"subtype" : "spell.massSlow"
+					"subtype" : "massSlow"
 				}
 			}
 		},
 		"expert" : {
 			"effects" : {
 				"massShield" : {
-					"subtype" : "spell.massShield"
+					"subtype" : "massShield"
 				},		
 				"massDisruption" : {
-					"subtype" : "spell.massDisruption"
+					"subtype" : "massDisruption"
 				},
 				"massBloodlust" : {
-					"subtype" : "spell.massBloodlust"
+					"subtype" : "massBloodlust"
 				},
 				"massWeakness" : {
-					"subtype" : "spell.massWeakness"
+					"subtype" : "massWeakness"
 				},				
 				"massHaste" : {
-					"subtype" : "spell.massHaste"
+					"subtype" : "massHaste"
 				},				
 				"massSlow" : {
-					"subtype" : "spell.massSlow"
+					"subtype" : "massSlow"
 				}
 			}
 		}				

@@ -3,7 +3,7 @@
 	"description" : "Modifications of Heroes 3 spells system.",
 	"author" : "Andruids",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "1.2",
+	"version" : "1.3",
 	"modType" : "Spells",
 	"compatibility" :
 	{
@@ -11,6 +11,7 @@
 	},
 	"changelog" :
 	{
+		"1.3"   : [ "Another update to vcmi-1.7 format" ],
 		"1.2"   : [ "Update to vcmi-1.7 format" ],
 		"1.1"   : [ "Czech translation by George King", "Added option to choose between Mass spells appearence to Wisdom+Expert Magic School (enabled by default) or just Expert Magic School" ],
 		"1.0"   : [ "Update to vcmi-1.4 format"],

@@ -13,10 +13,10 @@
         "expert": {
             "effects": {
                 "massDisruption": {
-                    "subtype": "spell.massDisruption"
+                    "subtype": "massDisruption"
                 },
                 "massHaste": {
-                    "subtype": "spell.massHaste"
+                    "subtype": "massHaste"
                 }
             }
         }

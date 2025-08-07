@@ -23,11 +23,11 @@
 				"airCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.air",
+					"subtype" : "air",
 					"val" : 1,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy1", null ]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy2", null ]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy3", null ]	} ]
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "airCopy1"	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "airCopy2"	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "airCopy3"	} ]
 
 				},
 				
@@ -36,11 +36,11 @@
 				"fireCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.fire",
+					"subtype" : "fire",
 					"val" : 1,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy1", null ]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy2", null ]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy3", null ]	} ]
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "fireCopy1"	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "fireCopy2"	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "fireCopy3"	} ]
 
 				},
 				
@@ -49,11 +49,11 @@
 				"waterCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.water",
+					"subtype" : "water",
 					"val" : 1,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy1", null ]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy2", null ]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy3", null ]	} ]
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "waterCopy1"	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "waterCopy2"	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "waterCopy3"	} ]
 
 				},
 				
@@ -62,11 +62,11 @@
 				"earthCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.earth",
+					"subtype" : "earth",
 					"val" : 1,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy1", null ]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy2", null ]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy3", null ]	} ]
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "earthCopy1"	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "earthCopy2"	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "earthCopy3"	} ]
 
 				}
 			}
@@ -81,12 +81,12 @@
 				"airCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.air",
+					"subtype" : "air",
 					"val" : 1,
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy1", null ]
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "airCopy1"
 						}
 					]
 
@@ -94,22 +94,22 @@
 				"airCopy2" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.air",
+					"subtype" : "air",
 					"val" : 2,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy2", null ]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy3", null ]	} ]
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "airCopy2"	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "airCopy3"	} ]
 
 				},
 				
 				"fireCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.fire",
+					"subtype" : "fire",
 					"val" : 1,
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy1", null ]
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "fireCopy1"
 						}
 					]
 
@@ -117,22 +117,22 @@
 				"fireCopy2" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.fire",
+					"subtype" : "fire",
 					"val" : 2,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy2", null ]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy3", null ]	} ]
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "fireCopy2"	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "fireCopy3"	} ]
 
 				},
 				
 				"waterCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.water",
+					"subtype" : "water",
 					"val" : 1,
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy1", null ]
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "waterCopy1"
 						}
 					]
 
@@ -140,22 +140,22 @@
 				"waterCopy2" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.water",
+					"subtype" : "water",
 					"val" : 2,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy2", null ]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy3", null ]	} ]
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "waterCopy2"	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "waterCopy3"	} ]
 
 				},
 				
 				"earthCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.earth",
+					"subtype" : "earth",
 					"val" : 1,
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy1", null ]
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "earthCopy1"
 						}
 					]
 
@@ -163,10 +163,10 @@
 				"earthCopy2" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.earth",
+					"subtype" : "earth",
 					"val" : 2,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy2", null ]	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy3", null ]	} ]
+					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "earthCopy2"	},
+											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "earthCopy3"	} ]
 
 				}
 			}
@@ -181,12 +181,12 @@
 				"airCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.air",
+					"subtype" : "air",
 					"val" : 1,
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy1", null ]
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "airCopy1"
 						}
 					]
 
@@ -194,12 +194,12 @@
 				"airCopy2" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.air",
+					"subtype" : "air",
 					"val" : 2,
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy2", null ]
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "airCopy2"
 						}
 					]
 
@@ -208,12 +208,12 @@
 				"airCopy3" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.air",
+					"subtype" : "air",
 					"val" : 3,
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.airCopy3", null ]
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "airCopy3"
 						}
 					]
 
@@ -222,12 +222,12 @@
 				"fireCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.fire",
+					"subtype" : "fire",
 					"val" : 1,
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy1", null ]
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "fireCopy1"
 						}
 					]
 
@@ -235,12 +235,12 @@
 				"fireCopy2" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.fire",
+					"subtype" : "fire",
 					"val" : 2,
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy2", null ]
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "fireCopy2"
 						}
 					]
 
@@ -249,12 +249,12 @@
 				"fireCopy3" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.fire",
+					"subtype" : "fire",
 					"val" : 3,
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.fireCopy3", null ]
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "fireCopy3"
 						}
 					]
 
@@ -263,12 +263,12 @@
 				"waterCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.water",
+					"subtype" : "water",
 					"val" : 1,
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy1", null ]
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "waterCopy1"
 						}
 					]
 
@@ -276,12 +276,12 @@
 				"waterCopy2" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.water",
+					"subtype" : "water",
 					"val" : 2,
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy2", null ]
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "waterCopy2"
 						}
 					]
 
@@ -290,12 +290,12 @@
 				"waterCopy3" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.water",
+					"subtype" : "water",
 					"val" : 3,
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.waterCopy3", null ]
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "waterCopy3"
 						}
 					]
 
@@ -304,12 +304,12 @@
 				"earthCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.earth",
+					"subtype" : "earth",
 					"val" : 1,
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy1", null ]
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "earthCopy1"
 						}
 					]
 
@@ -317,12 +317,12 @@
 				"earthCopy2" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.earth",
+					"subtype" : "earth",
 					"val" : 2,
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy2", null ]
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "earthCopy2"
 						}
 					]
 
@@ -331,12 +331,12 @@
 				"earthCopy3" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
-					"subtype" : "spellSchool.earth",
+					"subtype" : "earth",
 					"val" : 3,
 					"limiters": [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.earthCopy3", null ]
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "earthCopy3"
 						}
 					]
 
@@ -349,7 +349,7 @@
 		"base" : {
 			"effects" : {
 				"main" : {
-					"subtype" : "spellSchool.air",
+					"subtype" : "air",
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
@@ -367,7 +367,7 @@
 				"main" : { "val" : 1 },
 				
 				"eagleCopyAir" : {
-					"subtype" : "spell.airCopy1"
+					"subtype" : "airCopy1"
 				}
 			}
 		},
@@ -376,7 +376,7 @@
 				"main" : { "val" : 2 },
 				
 				"eagleCopyAir" : {
-					"subtype" : "spell.airCopy2"
+					"subtype" : "airCopy2"
 				}
 			}
 		},
@@ -385,7 +385,7 @@
 				"main" : { "val" : 3 },
 				
 				"eagleCopyAir" : {
-					"subtype" : "spell.airCopy3"
+					"subtype" : "airCopy3"
 				}
 			}
 		}
@@ -396,7 +396,7 @@
 		"base" : {
 			"effects" : {
 				"main" : {
-					"subtype" : "spellSchool.fire",
+					"subtype" : "fire",
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
@@ -414,7 +414,7 @@
 				"main" : { "val" : 1 },
 				
 				"eagleCopyFire" : {
-					"subtype" : "spell.fireCopy1"
+					"subtype" : "fireCopy1"
 				}
 			}
 		},
@@ -423,7 +423,7 @@
 				"main" : { "val" : 2 },
 				
 				"eagleCopyFire" : {
-					"subtype" : "spell.fireCopy2"
+					"subtype" : "fireCopy2"
 				}
 			}
 		},
@@ -432,7 +432,7 @@
 				"main" : { "val" : 3 },
 				
 				"eagleCopyFire" : {
-					"subtype" : "spell.fireCopy3"
+					"subtype" : "fireCopy3"
 				}
 			}
 		}
@@ -443,7 +443,7 @@
 		"base" : {
 			"effects" : {
 				"main" : {
-					"subtype" : "spellSchool.water",
+					"subtype" : "water",
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
@@ -461,7 +461,7 @@
 				"main" : { "val" : 1 },
 				
 				"eagleCopyWater" : {
-					"subtype" : "spell.waterCopy1"
+					"subtype" : "waterCopy1"
 				}
 			}
 		},
@@ -470,7 +470,7 @@
 				"main" : { "val" : 2 },
 				
 				"eagleCopyWater" : {
-					"subtype" : "spell.waterCopy2"
+					"subtype" : "waterCopy2"
 				}
 			}
 		},
@@ -479,7 +479,7 @@
 				"main" : { "val" : 3 },
 				
 				"eagleCopyWater" : {
-					"subtype" : "spell.waterCopy3"
+					"subtype" : "waterCopy3"
 				}
 			}
 		}
@@ -490,7 +490,7 @@
 		"base" : {
 			"effects" : {
 				"main" : {
-					"subtype" : "spellSchool.earth",
+					"subtype" : "earth",
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
@@ -508,7 +508,7 @@
 				"main" : { "val" : 1 },
 				
 				"eagleCopyEarth" : {
-					"subtype" : "spell.earthCopy1"
+					"subtype" : "earthCopy1"
 				}
 			}
 		},
@@ -517,7 +517,7 @@
 				"main" : { "val" : 2 },
 				
 				"eagleCopyEarth" : {
-					"subtype" : "spell.earthCopy2"
+					"subtype" : "earthCopy2"
 				}
 			}
 		},
@@ -526,7 +526,7 @@
 				"main" : { "val" : 3 },
 				
 				"eagleCopyEarth" : {
-					"subtype" : "spell.earthCopy3"
+					"subtype" : "earthCopy3"
 				}
 			}
 		}

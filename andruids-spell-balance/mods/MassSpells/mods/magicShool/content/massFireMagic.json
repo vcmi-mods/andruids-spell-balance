@@ -10,7 +10,7 @@
         "expert": {
             "effects": {
                 "massBloodlust": {
-                    "subtype": "spell.massBloodlust"
+                    "subtype": "massBloodlust"
                 }
             }
         }

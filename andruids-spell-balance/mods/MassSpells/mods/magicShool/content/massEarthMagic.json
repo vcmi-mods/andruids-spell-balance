@@ -13,10 +13,10 @@
         "expert": {
             "effects": {
                 "massShield": {
-                    "subtype": "spell.massShield"
+                    "subtype": "massShield"
                 },
                 "massSlow": {
-                    "subtype": "spell.massSlow"
+                    "subtype": "massSlow"
                 }
             }
         }

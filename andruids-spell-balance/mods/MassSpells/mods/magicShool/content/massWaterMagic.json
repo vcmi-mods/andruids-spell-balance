@@ -10,7 +10,7 @@
         "expert": {
             "effects": {
                 "massWeakness": {
-                    "subtype": "spell.massWeakness"
+                    "subtype": "massWeakness"
                 }
             }
         }
