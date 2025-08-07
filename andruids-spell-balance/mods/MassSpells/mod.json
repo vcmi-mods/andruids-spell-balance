@@ -5,29 +5,34 @@
 	"contact" : "madaosoul@gmail.com",
 	"version" : "0.91",
 	"modType" : "Spells",
-	"changelog" :
-	{
-		"0.91"  : [ "Added submods to allow different appearence of mass spells" ],
-		"0.9"   : [ "Update to vcmi-1.2 format" ],
-		"0.85"  : [ "Fixes" ],
-		"0.8"   : [ "Initial release" ]
-	},	
-	"compatibility" :
-	{
+	"changelog" : {
+		"0.91" : [
+			"Added submods to allow different appearence of mass spells"
+		],
+		"0.9" : [
+			"Update to vcmi-1.2 format"
+		],
+		"0.85" : [
+			"Fixes"
+		],
+		"0.8" : [
+			"Initial release"
+		]
+	},
+	"compatibility" : {
 		"min" : "1.2.0"
 	},
-	"spells" :
-	[
+	"spells" : [
 		"massShield.json",
 		"massDisruption.json",
 		"massSlow.json",
-		"massHaste.json",	
-		"massBloodlust.json",	
+		"massHaste.json",
+		"massBloodlust.json",
 		"massWeakness.json",
 		"massCounters.json"
 	],
 	"czech" : {
-		"name": "Hromadná kouzla",
-		"description": "Tato modifikace přidává 6 hromadných kouzel:<br/><br/>Hromadná krvežíznivost<br/>Hromadný rušící paprsek<br/>Hromadné zrychlení<br/>Hromadný štít<br/>Hromadné zpomalení<br/>Hromadná slabost"
+		"name" : "Hromadná kouzla",
+		"description" : "Tato modifikace přidává 6 hromadných kouzel:<br/><br/>Hromadná krvežíznivost<br/>Hromadný rušící paprsek<br/>Hromadné zrychlení<br/>Hromadný štít<br/>Hromadné zpomalení<br/>Hromadná slabost"
 	}
 }

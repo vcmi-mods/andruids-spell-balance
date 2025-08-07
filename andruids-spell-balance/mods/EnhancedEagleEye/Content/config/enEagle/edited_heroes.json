@@ -1,114 +1,99 @@
 {
-	"core:sanya":
-	{
+	"core:sanya" : {
 		"specialty" : {
-			"bonuses" : {				
-			"visionsHeroes" :
-			{
-				"type" : "VISIONS",
-				"subtype" : "visionsHeroes",
-				"val" : 3,
-				"valueType" : "INDEPENDENT_MAX",
-				"propagator" : "HERO"
-			}
+			"bonuses" : {
+				"visionsHeroes" : {
+					"type" : "VISIONS",
+					"subtype" : "visionsHeroes",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MAX",
+					"propagator" : "HERO"
+				}
 			}
 		}
 	},
-	
-	"core:malcom":
-	{
+
+	"core:malcom" : {
 		"specialty" : {
-			"bonuses" : {				
-			"visionsHeroes" :
-			{
-				"type" : "VISIONS",
-				"subtype" : "visionsHeroes",
-				"val" : 3,
-				"valueType" : "INDEPENDENT_MAX",
-				"propagator" : "HERO"
-			}
+			"bonuses" : {
+				"visionsHeroes" : {
+					"type" : "VISIONS",
+					"subtype" : "visionsHeroes",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MAX",
+					"propagator" : "HERO"
+				}
 			}
 		}
 	},
-	
-	"core:serena":
-	{
+
+	"core:serena" : {
 		"specialty" : {
-			"bonuses" : {				
-			"visionsHeroes" :
-			{
-				"type" : "VISIONS",
-				"subtype" : "visionsHeroes",
-				"val" : 3,
-				"valueType" : "INDEPENDENT_MAX",
-				"propagator" : "HERO"
-			}
+			"bonuses" : {
+				"visionsHeroes" : {
+					"type" : "VISIONS",
+					"subtype" : "visionsHeroes",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MAX",
+					"propagator" : "HERO"
+				}
 			}
 		}
 	},
-	
-	"core:nimbus":
-	{
+
+	"core:nimbus" : {
 		"specialty" : {
-			"bonuses" : {				
-			"visionsHeroes" :
-			{
-				"type" : "VISIONS",
-				"subtype" : "visionsHeroes",
-				"val" : 3,
-				"valueType" : "INDEPENDENT_MAX",
-				"propagator" : "HERO"
-			}
+			"bonuses" : {
+				"visionsHeroes" : {
+					"type" : "VISIONS",
+					"subtype" : "visionsHeroes",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MAX",
+					"propagator" : "HERO"
+				}
 			}
 		}
 	},
-	
-	"core:geon":
-	{
+
+	"core:geon" : {
 		"specialty" : {
-			"bonuses" : {				
-			"visionsHeroes" :
-			{
-				"type" : "VISIONS",
-				"subtype" : "visionsHeroes",
-				"val" : 3,
-				"valueType" : "INDEPENDENT_MAX",
-				"propagator" : "HERO"
-			}
+			"bonuses" : {
+				"visionsHeroes" : {
+					"type" : "VISIONS",
+					"subtype" : "visionsHeroes",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MAX",
+					"propagator" : "HERO"
+				}
 			}
 		}
 	},
-	
-	"core:oris":
-	{
+
+	"core:oris" : {
 		"specialty" : {
-			"bonuses" : {				
-			"visionsHeroes" :
-			{
-				"type" : "VISIONS",
-				"subtype" : "visionsHeroes",
-				"val" : 3,
-				"valueType" : "INDEPENDENT_MAX",
-				"propagator" : "HERO"
-			}
+			"bonuses" : {
+				"visionsHeroes" : {
+					"type" : "VISIONS",
+					"subtype" : "visionsHeroes",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MAX",
+					"propagator" : "HERO"
+				}
 			}
 		}
 	},
-	
-	"core:tiva":
-	{
+
+	"core:tiva" : {
 		"specialty" : {
-			"bonuses" : {				
-			"visionsHeroes" :
-			{
-				"type" : "VISIONS",
-				"subtype" : "visionsHeroes",
-				"val" : 3,
-				"valueType" : "INDEPENDENT_MAX",
-				"propagator" : "HERO"
-			}
+			"bonuses" : {
+				"visionsHeroes" : {
+					"type" : "VISIONS",
+					"subtype" : "visionsHeroes",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MAX",
+					"propagator" : "HERO"
+				}
 			}
 		}
 	}
-	
 }

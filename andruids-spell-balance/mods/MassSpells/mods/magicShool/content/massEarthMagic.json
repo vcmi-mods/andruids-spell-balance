@@ -1,24 +1,24 @@
 {
-    "core:earthMagic": {
-        "base": {
-            "effects": {
-                "massShield": {
-                    "type": "SPELL"
-                },
-                "massSlow": {
-                    "type": "SPELL"
-                }
-            }
-        },
-        "expert": {
-            "effects": {
-                "massShield": {
-                    "subtype": "massShield"
-                },
-                "massSlow": {
-                    "subtype": "massSlow"
-                }
-            }
-        }
-    }
+	"core:earthMagic" : {
+		"base" : {
+			"effects" : {
+				"massShield" : {
+					"type" : "SPELL"
+				},
+				"massSlow" : {
+					"type" : "SPELL"
+				}
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"massShield" : {
+					"subtype" : "massShield"
+				},
+				"massSlow" : {
+					"subtype" : "massSlow"
+				}
+			}
+		}
+	}
 }

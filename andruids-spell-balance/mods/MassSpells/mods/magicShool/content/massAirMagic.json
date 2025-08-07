@@ -1,24 +1,24 @@
 {
-    "core:airMagic": {
-        "base": {
-            "effects": {
-                "massDisruption": {
-                    "type": "SPELL"
-                },
-                "massHaste": {
-                    "type": "SPELL"
-                }
-            }
-        },
-        "expert": {
-            "effects": {
-                "massDisruption": {
-                    "subtype": "massDisruption"
-                },
-                "massHaste": {
-                    "subtype": "massHaste"
-                }
-            }
-        }
-    }
+	"core:airMagic" : {
+		"base" : {
+			"effects" : {
+				"massDisruption" : {
+					"type" : "SPELL"
+				},
+				"massHaste" : {
+					"type" : "SPELL"
+				}
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"massDisruption" : {
+					"subtype" : "massDisruption"
+				},
+				"massHaste" : {
+					"subtype" : "massHaste"
+				}
+			}
+		}
+	}
 }

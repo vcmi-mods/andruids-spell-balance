@@ -1,229 +1,227 @@
 {
- 	"core:shield" : {
-        "targetType":"LOCATION",
+	"core:shield" : {
+		"targetType" : "LOCATION",
 		"levels" : {
-			"expert":{
-				"description": "{Expert Shield}\r\n\r\nShields friendly units on medium area, reducing the amount of damage received from hand-to-hand attacks.\r\n\r\nProtection is twice that of Basic Shield",
+			"expert" : {
+				"description" : "{Expert Shield}\r\n\r\nShields friendly units on medium area, reducing the amount of damage received from hand-to-hand attacks.\r\n\r\nProtection is twice that of Basic Shield",
 				"range" : "0-2"
 			}
 		}
-
 	},
 	"core:airShield" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"expert":{
-				"description": "{Expert Air Shield}\r\n\r\nShields friendly units on medium area, reducing the amount of damage received from ranged attacks.\r\n\r\nProtection is twice that of Basic Air Shield",
+			"expert" : {
+				"description" : "{Expert Air Shield}\r\n\r\nShields friendly units on medium area, reducing the amount of damage received from ranged attacks.\r\n\r\nProtection is twice that of Basic Air Shield",
 				"range" : "0-2"
 			}
 		}
 	},
 	"core:protectAir" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"advanced":{
-				"description": "{Advanced Protection from Air}\r\n\r\nProtects friendly units on small area, reducing damage received from Air spells.\r\n\r\nProtection is nearly twice that of Basic Protection from Air",
+			"advanced" : {
+				"description" : "{Advanced Protection from Air}\r\n\r\nProtects friendly units on small area, reducing damage received from Air spells.\r\n\r\nProtection is nearly twice that of Basic Protection from Air",
 				"range" : "0-1"
-					},			
-			"expert":{
-				"description": "{Expert Protection from Air}\r\n\r\nProtects friendly units on large area, reducing damage received from Air spells.\r\n\r\nProtection is nearly twice that of Basic Protection from Air",
+			},
+			"expert" : {
+				"description" : "{Expert Protection from Air}\r\n\r\nProtects friendly units on large area, reducing damage received from Air spells.\r\n\r\nProtection is nearly twice that of Basic Protection from Air",
 				"range" : "0-3"
 			}
 		}
-
 	},
 	"core:protectFire" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"advanced":{
-				"description": "{Advanced Protection from Fire}\r\n\r\nProtects friendly units on small area, reducing damage received from Fire spells.\r\n\r\nProtection is nearly twice that of Basic Protection from Fire",
+			"advanced" : {
+				"description" : "{Advanced Protection from Fire}\r\n\r\nProtects friendly units on small area, reducing damage received from Fire spells.\r\n\r\nProtection is nearly twice that of Basic Protection from Fire",
 				"range" : "0-1"
-					},			
-			"expert":{
-				"description": "{Expert Protection from Fire}\r\n\r\nProtects friendly units on large area, reducing damage received from Fire spells.\r\n\r\nProtection is nearly twice that of Basic Protection from Fire",
+			},
+			"expert" : {
+				"description" : "{Expert Protection from Fire}\r\n\r\nProtects friendly units on large area, reducing damage received from Fire spells.\r\n\r\nProtection is nearly twice that of Basic Protection from Fire",
 				"range" : "0-3"
 			}
 		}
 	},
 	"core:protectWater" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"advanced":{
-				"description": "{Advanced Protection from Water}\r\n\r\nProtects friendly units on small area, reducing damage received from Water spells.\r\n\r\nProtection is nearly twice that of Basic Protection from Water",
+			"advanced" : {
+				"description" : "{Advanced Protection from Water}\r\n\r\nProtects friendly units on small area, reducing damage received from Water spells.\r\n\r\nProtection is nearly twice that of Basic Protection from Water",
 				"range" : "0-1"
-					},			
-			"expert":{
-				"description": "{Expert Protection from Water}\r\n\r\nProtects friendly units on large area, reducing damage received from Water spells.\r\n\r\nProtection is nearly twice that of Basic Protection from Water",
+			},
+			"expert" : {
+				"description" : "{Expert Protection from Water}\r\n\r\nProtects friendly units on large area, reducing damage received from Water spells.\r\n\r\nProtection is nearly twice that of Basic Protection from Water",
 				"range" : "0-3"
 			}
 		}
 	},
 	"core:protectEarth" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"advanced":{
-				"description": "{Advanced Protection from Earth}\r\n\r\nProtects friendly units on small area, reducing damage received from Earth spells.\r\n\r\nProtection is nearly twice that of Basic Protection from Earth",
+			"advanced" : {
+				"description" : "{Advanced Protection from Earth}\r\n\r\nProtects friendly units on small area, reducing damage received from Earth spells.\r\n\r\nProtection is nearly twice that of Basic Protection from Earth",
 				"range" : "0-1"
-					},			
-			"expert":{
-				"description": "{Expert Protection from Earth}\r\n\r\nProtects friendly units on large area, reducing damage received from Earth spells.\r\n\r\nProtection is nearly twice that of Basic Protection from Earth",
+			},
+			"expert" : {
+				"description" : "{Expert Protection from Earth}\r\n\r\nProtects friendly units on large area, reducing damage received from Earth spells.\r\n\r\nProtection is nearly twice that of Basic Protection from Earth",
 				"range" : "0-3"
 			}
 		}
 	},
 
 	"core:bless" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"expert":{
-				"description": "{Expert Bless}\r\n\r\nCauses a group of friendly units on medium area to inflict greater than their normal maximum damage in combat",
+			"expert" : {
+				"description" : "{Expert Bless}\r\n\r\nCauses a group of friendly units on medium area to inflict greater than their normal maximum damage in combat",
 				"range" : "0-2"
 			}
 		}
 	},
 	"core:curse" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"expert":{
-				"description": "{Expert Curse}\r\n\r\nCauses a group of enemy units on medium area to inflict less than their normal minimum damage in combat",
+			"expert" : {
+				"description" : "{Expert Curse}\r\n\r\nCauses a group of enemy units on medium area to inflict less than their normal minimum damage in combat",
 				"range" : "0-2"
 			}
 		}
 	},
 	"core:bloodlust" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"expert":{
-				"description": "{Expert Bloodlust}\r\n\r\nIncreases the hand-to-hand damage inflicted by friendly units on medium area.\r\n\r\nEffect is twice that of Basic Bloodlust",
+			"expert" : {
+				"description" : "{Expert Bloodlust}\r\n\r\nIncreases the hand-to-hand damage inflicted by friendly units on medium area.\r\n\r\nEffect is twice that of Basic Bloodlust",
 				"range" : "0-2"
 			}
 		}
 	},
 	"core:precision" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"expert":{
-				"description": "{Expert Precision}\r\n\r\nIncreases the ranged attack damage inflicted by friendly units on medium area.\r\n\r\nEffect is twice that of Basic Precision",
+			"expert" : {
+				"description" : "{Expert Precision}\r\n\r\nIncreases the ranged attack damage inflicted by friendly units on medium area.\r\n\r\nEffect is twice that of Basic Precision",
 				"range" : "0-2"
 			}
 		}
 	},
 	"core:weakness" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"expert":{
-				"description": "{Expert Weakness}\r\n\r\nReduces the attack strength of enemy units on medium area.\r\n\r\nEffect is twice that of Basic Weakness",
+			"expert" : {
+				"description" : "{Expert Weakness}\r\n\r\nReduces the attack strength of enemy units on medium area.\r\n\r\nEffect is twice that of Basic Weakness",
 				"range" : "0-2"
 			}
 		}
 	},
 	"core:stoneSkin" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"expert":{
-				"description": "{Expert Stone Skin}\r\n\r\nIncreases the defense strength of friendly units on medium area.\r\n\r\nEffect is twice that of Basic Stone Skin",
+			"expert" : {
+				"description" : "{Expert Stone Skin}\r\n\r\nIncreases the defense strength of friendly units on medium area.\r\n\r\nEffect is twice that of Basic Stone Skin",
 				"range" : "0-2"
 			}
 		}
 	},
 
 	"core:prayer" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"expert":{
-				"description": "{Expert Prayer}\r\n\r\nBestows a bonus to the attack strength, defense strenght and speed of friendly units on medium area.\r\n\r\nEffect is twice that of Basic Prayer",
+			"expert" : {
+				"description" : "{Expert Prayer}\r\n\r\nBestows a bonus to the attack strength, defense strenght and speed of friendly units on medium area.\r\n\r\nEffect is twice that of Basic Prayer",
 				"range" : "0-2"
 			}
 		}
 	},
 	"core:mirth" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"advanced":{
-				"description": "{Advanced Mirth}\r\n\r\nIncreases the morale of friendly units on small area.\r\n\r\nEffect is twice that of Basic Mirth",
+			"advanced" : {
+				"description" : "{Advanced Mirth}\r\n\r\nIncreases the morale of friendly units on small area.\r\n\r\nEffect is twice that of Basic Mirth",
 				"range" : "0-1"
-					},
-						
-			"expert":{
-				"description": "{Expert Mirth}\r\n\r\nIncreases the morale of friendly units on large area.\r\n\r\nEffect is twice that of Basic Mirth",
+			},
+
+			"expert" : {
+				"description" : "{Expert Mirth}\r\n\r\nIncreases the morale of friendly units on large area.\r\n\r\nEffect is twice that of Basic Mirth",
 				"range" : "0-3"
 			}
 		}
 	},
 	"core:sorrow" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"advanced":{
-				"description": "{Advanced Sorrow}\r\n\r\nReduces the morale of enemy units on small area.\r\n\r\nEffect is twice that of Basic Sorrow",
+			"advanced" : {
+				"description" : "{Advanced Sorrow}\r\n\r\nReduces the morale of enemy units on small area.\r\n\r\nEffect is twice that of Basic Sorrow",
 				"range" : "0-1"
-					},
-						
-			"expert":{
-				"description": "{Expert Sorrow}\r\n\r\nReduces the morale of enemy units on large area.\r\n\r\nEffect is twice that of Basic Sorrow",
+			},
+
+			"expert" : {
+				"description" : "{Expert Sorrow}\r\n\r\nReduces the morale of enemy units on large area.\r\n\r\nEffect is twice that of Basic Sorrow",
 				"range" : "0-3"
 			}
 		}
 	},
 	"core:fortune" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"advanced":{
-				"description": "{Advanced Fortune}\r\n\r\nIncreases the luck of friendly units on small area.\r\n\r\nEffect is twice that of Basic Fortune",
+			"advanced" : {
+				"description" : "{Advanced Fortune}\r\n\r\nIncreases the luck of friendly units on small area.\r\n\r\nEffect is twice that of Basic Fortune",
 				"range" : "0-1"
-					},
-						
-			"expert":{
-				"description": "{Expert Fortune}\r\n\r\nIncreases the luck of friendly units on large area.\r\n\r\nEffect is twice that of Basic Fortune",
+			},
+
+			"expert" : {
+				"description" : "{Expert Fortune}\r\n\r\nIncreases the luck of friendly units on large area.\r\n\r\nEffect is twice that of Basic Fortune",
 				"range" : "0-3"
 			}
 		}
 	},
 	"core:misfortune" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"advanced":{
-				"description": "{Advanced Misfortune}\r\n\r\nReduces the luck of enemy units on small area.\r\n\r\nEffect is twice that of Basic Misfortune",
+			"advanced" : {
+				"description" : "{Advanced Misfortune}\r\n\r\nReduces the luck of enemy units on small area.\r\n\r\nEffect is twice that of Basic Misfortune",
 				"range" : "0-1"
-					},
-						
-			"expert":{
-				"description": "{Expert Misfortune}\r\n\r\nReduces the luck of enemy units on large area.\r\n\r\nEffect is twice that of Basic Misfortune",
+			},
+
+			"expert" : {
+				"description" : "{Expert Misfortune}\r\n\r\nReduces the luck of enemy units on large area.\r\n\r\nEffect is twice that of Basic Misfortune",
 				"range" : "0-3"
 			}
 		}
 	},
 	"core:haste" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"expert":{
-				"description": "{Expert Haste}\r\n\r\nIncreases the speed of friendly units on medium area.\r\n\r\nEffect is nearly twice that of Basic Haste",
+			"expert" : {
+				"description" : "{Expert Haste}\r\n\r\nIncreases the speed of friendly units on medium area.\r\n\r\nEffect is nearly twice that of Basic Haste",
 				"range" : "0-2"
 			}
 		}
 	},
 	"core:slow" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"expert":{
-				"description": "{Expert Slow}\r\n\r\nReduces the speed of enemy units on medium area.\r\n\r\nEffect is twice that of Basic Slow",
+			"expert" : {
+				"description" : "{Expert Slow}\r\n\r\nReduces the speed of enemy units on medium area.\r\n\r\nEffect is twice that of Basic Slow",
 				"range" : "0-2"
 			}
 		}
 	},
 	"core:counterstrike" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"expert":{
-				"description": "{Expert Counterstrike}\r\n\r\nA group of friendly units on medium area will retaliate against two additional attacks each round",
+			"expert" : {
+				"description" : "{Expert Counterstrike}\r\n\r\nA group of friendly units on medium area will retaliate against two additional attacks each round",
 				"range" : "0-2"
 			}
 		}
 	},
 	"core:forgetfulness" : {
-        "targetType":"LOCATION",
+		"targetType" : "LOCATION",
 		"levels" : {
-			"expert":{
-				"description": "{Expert Forgetfulness}\r\n\r\nCauses enemy units on medium area to forget to use their ranged attack in combat",
+			"expert" : {
+				"description" : "{Expert Forgetfulness}\r\n\r\nCauses enemy units on medium area to forget to use their ranged attack in combat",
 				"range" : "0-2"
 			}
 		}

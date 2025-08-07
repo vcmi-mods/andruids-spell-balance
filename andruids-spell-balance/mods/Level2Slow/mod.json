@@ -4,14 +4,13 @@
 	"author" : "Andruids",
 	"contact" : "madaosoul@gmail.com",
 	"version" : "1.0",
-	"modType" : "Spells",	
+	"modType" : "Spells",
 
-	"spells" :
-	[
+	"spells" : [
 		"lv2slow.json"
 	],
 	"czech" : {
-		"name": "Zpomalení 2. úroveň",
-		"description": "Tato modifikace přesouvá kouzlo Zpomalení z 1. úrovně na 2. úroveň a zvyšuje jeho cenu o 1 bod magické energie pro hrdiny bez dovednosti magie země."
+		"name" : "Zpomalení 2. úroveň",
+		"description" : "Tato modifikace přesouvá kouzlo Zpomalení z 1. úrovně na 2. úroveň a zvyšuje jeho cenu o 1 bod magické energie pro hrdiny bez dovednosti magie země."
 	}
 }

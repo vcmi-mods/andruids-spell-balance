@@ -1,6 +1,5 @@
 {
 	"core:eagleEye" : {
-
 		"base" : {
 			"effects" : {
 				"main" : {
@@ -14,332 +13,431 @@
 			}
 		},
 		"basic" : {
-		"description":"{Basic Eagle Eye}\n\nBasic Eagle Eye gives your hero a 50% chance to learn any spell up to 3rd level used in combat. Also, when facing a hero who knows any Basic magic skill, your hero can cast spells from the same school on the Basic level.",			
+			"description" : "{Basic Eagle Eye}\n\nBasic Eagle Eye gives your hero a 50% chance to learn any spell up to 3rd level used in combat. Also, when facing a hero who knows any Basic magic skill, your hero can cast spells from the same school on the Basic level.",
 			"effects" : {
-				"main" : { "val" : 50 },
-				"val2" : { "val" : 3 },
-				
-				
+				"main" : {
+					"val" : 50
+				},
+				"val2" : {
+					"val" : 3
+				},
+
 				"airCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "air",
 					"val" : 1,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "airCopy1"	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "airCopy2"	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "airCopy3"	} ]
-
+					"limiters" : [
+						"anyOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "airCopy1"
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "airCopy2"
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "airCopy3"
+						}
+					]
 				},
-				
-				
-				
+
 				"fireCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "fire",
 					"val" : 1,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "fireCopy1"	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "fireCopy2"	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "fireCopy3"	} ]
-
+					"limiters" : [
+						"anyOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "fireCopy1"
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "fireCopy2"
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "fireCopy3"
+						}
+					]
 				},
-				
-				
-				
+
 				"waterCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "water",
 					"val" : 1,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "waterCopy1"	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "waterCopy2"	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "waterCopy3"	} ]
-
+					"limiters" : [
+						"anyOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "waterCopy1"
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "waterCopy2"
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "waterCopy3"
+						}
+					]
 				},
-				
-				
-				
+
 				"earthCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "earth",
 					"val" : 1,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "earthCopy1"	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "earthCopy2"	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "earthCopy3"	} ]
-
+					"limiters" : [
+						"anyOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "earthCopy1"
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "earthCopy2"
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "earthCopy3"
+						}
+					]
 				}
 			}
 		},
 		"advanced" : {
-		"description":"{Advanced Eagle Eye}\n\nAdvanced Eagle Eye gives your hero a 60% chance to learn any spell up to 4th level used in combat. Also, when facing a hero who knows any Advanced magic skill, your hero can cast spells from the same school on the Advanced level.",		
+			"description" : "{Advanced Eagle Eye}\n\nAdvanced Eagle Eye gives your hero a 60% chance to learn any spell up to 4th level used in combat. Also, when facing a hero who knows any Advanced magic skill, your hero can cast spells from the same school on the Advanced level.",
 			"effects" : {
-				"main" : { "val" : 60 },
-				"val2" : { "val" : 4 },
-				
-				
+				"main" : {
+					"val" : 60
+				},
+				"val2" : {
+					"val" : 4
+				},
+
 				"airCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "air",
 					"val" : 1,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "airCopy1"
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "airCopy1"
 						}
 					]
-
 				},
 				"airCopy2" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "air",
 					"val" : 2,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "airCopy2"	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "airCopy3"	} ]
-
+					"limiters" : [
+						"anyOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "airCopy2"
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "airCopy3"
+						}
+					]
 				},
-				
+
 				"fireCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "fire",
 					"val" : 1,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "fireCopy1"
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "fireCopy1"
 						}
 					]
-
 				},
 				"fireCopy2" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "fire",
 					"val" : 2,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "fireCopy2"	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "fireCopy3"	} ]
-
+					"limiters" : [
+						"anyOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "fireCopy2"
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "fireCopy3"
+						}
+					]
 				},
-				
+
 				"waterCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "water",
 					"val" : 1,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "waterCopy1"
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "waterCopy1"
 						}
 					]
-
 				},
 				"waterCopy2" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "water",
 					"val" : 2,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "waterCopy2"	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "waterCopy3"	} ]
-
+					"limiters" : [
+						"anyOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "waterCopy2"
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "waterCopy3"
+						}
+					]
 				},
-				
+
 				"earthCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "earth",
 					"val" : 1,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "earthCopy1"
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "earthCopy1"
 						}
 					]
-
 				},
 				"earthCopy2" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "earth",
 					"val" : 2,
-					"limiters": [ "anyOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "earthCopy2"	},
-											{"type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" :  "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "earthCopy3"	} ]
-
+					"limiters" : [
+						"anyOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "earthCopy2"
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "earthCopy3"
+						}
+					]
 				}
 			}
 		},
 		"expert" : {
-		"description":"{Expert Eagle Eye}\n\nExpert Eagle Eye gives your hero a 70% chance to learn any spell used in combat. Also, when facing a hero who knows any Expert magic skill, your hero can cast spells from the same school on the Expert level.",
+			"description" : "{Expert Eagle Eye}\n\nExpert Eagle Eye gives your hero a 70% chance to learn any spell used in combat. Also, when facing a hero who knows any Expert magic skill, your hero can cast spells from the same school on the Expert level.",
 			"effects" : {
-				"main" : { "val" : 70 },
-				"val2" : { "val" : 5 },
-				
-				
+				"main" : {
+					"val" : 70
+				},
+				"val2" : {
+					"val" : 5
+				},
+
 				"airCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "air",
 					"val" : 1,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "airCopy1"
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "airCopy1"
 						}
 					]
-
 				},
 				"airCopy2" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "air",
 					"val" : 2,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "airCopy2"
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "airCopy2"
 						}
 					]
-
 				},
-				
+
 				"airCopy3" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "air",
 					"val" : 3,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "airCopy3"
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "airCopy3"
 						}
 					]
-
 				},
-				
+
 				"fireCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "fire",
 					"val" : 1,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "fireCopy1"
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "fireCopy1"
 						}
 					]
-
 				},
 				"fireCopy2" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "fire",
 					"val" : 2,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "fireCopy2"
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "fireCopy2"
 						}
 					]
-
 				},
-				
+
 				"fireCopy3" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "fire",
 					"val" : 3,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "fireCopy3"
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "fireCopy3"
 						}
 					]
-
 				},
-				
+
 				"waterCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "water",
 					"val" : 1,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "waterCopy1"
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "waterCopy1"
 						}
 					]
-
 				},
 				"waterCopy2" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "water",
 					"val" : 2,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "waterCopy2"
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "waterCopy2"
 						}
 					]
-
 				},
-				
+
 				"waterCopy3" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "water",
 					"val" : 3,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "waterCopy3"
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "waterCopy3"
 						}
 					]
-
 				},
-				
+
 				"earthCopy1" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "earth",
 					"val" : 1,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "earthCopy1"
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "earthCopy1"
 						}
 					]
-
 				},
 				"earthCopy2" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "earth",
 					"val" : 2,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "earthCopy2"
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "earthCopy2"
 						}
 					]
-
 				},
-				
+
 				"earthCopy3" : {
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"propagator" : "HERO",
 					"subtype" : "earth",
 					"val" : 3,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "MORE_DAMAGE_FROM_SPELL", "bonusSubtype" : "earthCopy3"
+							"bonusType" : "MORE_DAMAGE_FROM_SPELL",
+							"bonusSubtype" : "earthCopy3"
 						}
 					]
-
 				}
 			}
 		}
@@ -353,19 +451,19 @@
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
-				
+
 				"eagleCopyAir" : {
 					"type" : "MORE_DAMAGE_FROM_SPELL",
 					"propagator" : "BATTLE_WIDE"
-
 				}
-				
 			}
 		},
 		"basic" : {
 			"effects" : {
-				"main" : { "val" : 1 },
-				
+				"main" : {
+					"val" : 1
+				},
+
 				"eagleCopyAir" : {
 					"subtype" : "airCopy1"
 				}
@@ -373,8 +471,10 @@
 		},
 		"advanced" : {
 			"effects" : {
-				"main" : { "val" : 2 },
-				
+				"main" : {
+					"val" : 2
+				},
+
 				"eagleCopyAir" : {
 					"subtype" : "airCopy2"
 				}
@@ -382,15 +482,16 @@
 		},
 		"expert" : {
 			"effects" : {
-				"main" : { "val" : 3 },
-				
+				"main" : {
+					"val" : 3
+				},
+
 				"eagleCopyAir" : {
 					"subtype" : "airCopy3"
 				}
 			}
 		}
-		},
-		
+	},
 
 	"core:fireMagic" : {
 		"base" : {
@@ -400,19 +501,19 @@
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
-				
+
 				"eagleCopyFire" : {
 					"type" : "MORE_DAMAGE_FROM_SPELL",
 					"propagator" : "BATTLE_WIDE"
-
 				}
-				
 			}
 		},
 		"basic" : {
 			"effects" : {
-				"main" : { "val" : 1 },
-				
+				"main" : {
+					"val" : 1
+				},
+
 				"eagleCopyFire" : {
 					"subtype" : "fireCopy1"
 				}
@@ -420,8 +521,10 @@
 		},
 		"advanced" : {
 			"effects" : {
-				"main" : { "val" : 2 },
-				
+				"main" : {
+					"val" : 2
+				},
+
 				"eagleCopyFire" : {
 					"subtype" : "fireCopy2"
 				}
@@ -429,15 +532,16 @@
 		},
 		"expert" : {
 			"effects" : {
-				"main" : { "val" : 3 },
-				
+				"main" : {
+					"val" : 3
+				},
+
 				"eagleCopyFire" : {
 					"subtype" : "fireCopy3"
 				}
 			}
 		}
-		},
-		
+	},
 
 	"core:waterMagic" : {
 		"base" : {
@@ -447,19 +551,19 @@
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
-				
+
 				"eagleCopyWater" : {
 					"type" : "MORE_DAMAGE_FROM_SPELL",
 					"propagator" : "BATTLE_WIDE"
-
 				}
-				
 			}
 		},
 		"basic" : {
 			"effects" : {
-				"main" : { "val" : 1 },
-				
+				"main" : {
+					"val" : 1
+				},
+
 				"eagleCopyWater" : {
 					"subtype" : "waterCopy1"
 				}
@@ -467,8 +571,10 @@
 		},
 		"advanced" : {
 			"effects" : {
-				"main" : { "val" : 2 },
-				
+				"main" : {
+					"val" : 2
+				},
+
 				"eagleCopyWater" : {
 					"subtype" : "waterCopy2"
 				}
@@ -476,15 +582,16 @@
 		},
 		"expert" : {
 			"effects" : {
-				"main" : { "val" : 3 },
-				
+				"main" : {
+					"val" : 3
+				},
+
 				"eagleCopyWater" : {
 					"subtype" : "waterCopy3"
 				}
 			}
 		}
-		},
-		
+	},
 
 	"core:earthMagic" : {
 		"base" : {
@@ -494,19 +601,19 @@
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
-				
+
 				"eagleCopyEarth" : {
 					"type" : "MORE_DAMAGE_FROM_SPELL",
 					"propagator" : "BATTLE_WIDE"
-
 				}
-				
 			}
 		},
 		"basic" : {
 			"effects" : {
-				"main" : { "val" : 1 },
-				
+				"main" : {
+					"val" : 1
+				},
+
 				"eagleCopyEarth" : {
 					"subtype" : "earthCopy1"
 				}
@@ -514,8 +621,10 @@
 		},
 		"advanced" : {
 			"effects" : {
-				"main" : { "val" : 2 },
-				
+				"main" : {
+					"val" : 2
+				},
+
 				"eagleCopyEarth" : {
 					"subtype" : "earthCopy2"
 				}
@@ -523,8 +632,10 @@
 		},
 		"expert" : {
 			"effects" : {
-				"main" : { "val" : 3 },
-				
+				"main" : {
+					"val" : 3
+				},
+
 				"eagleCopyEarth" : {
 					"subtype" : "earthCopy3"
 				}

@@ -19,7 +19,7 @@
 				},
 				"massWeakness" : {
 					"type" : "SPELL"
-				}				
+				}
 			}
 		},
 		"basic" : {
@@ -31,7 +31,7 @@
 					//	"type" : "HAS_ANOTHER_BONUS_LIMITER",
 					//	"parameters" : [ "SPELL", "shield" ]
 					//	}
-					//]			
+					//]
 				},
 				"massHaste" : {
 					"subtype" : "massHaste"
@@ -45,7 +45,7 @@
 			"effects" : {
 				"massShield" : {
 					"subtype" : "massShield"
-				},		
+				},
 				"massDisruption" : {
 					"subtype" : "massDisruption"
 				},
@@ -54,10 +54,10 @@
 				},
 				"massWeakness" : {
 					"subtype" : "massWeakness"
-				},						
+				},
 				"massHaste" : {
 					"subtype" : "massHaste"
-				},				
+				},
 				"massSlow" : {
 					"subtype" : "massSlow"
 				}
@@ -67,7 +67,7 @@
 			"effects" : {
 				"massShield" : {
 					"subtype" : "massShield"
-				},		
+				},
 				"massDisruption" : {
 					"subtype" : "massDisruption"
 				},
@@ -76,14 +76,14 @@
 				},
 				"massWeakness" : {
 					"subtype" : "massWeakness"
-				},				
+				},
 				"massHaste" : {
 					"subtype" : "massHaste"
-				},				
+				},
 				"massSlow" : {
 					"subtype" : "massSlow"
 				}
 			}
-		}				
+		}
 	}
 }

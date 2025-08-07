@@ -1,9 +1,9 @@
 {
 	"core:slow" : {
-		"level": 2,
-		"levels" : {					
+		"level" : 2,
+		"levels" : {
 			"none" : {
-				"cost": 7
+				"cost" : 7
 			}
 		}
 	}

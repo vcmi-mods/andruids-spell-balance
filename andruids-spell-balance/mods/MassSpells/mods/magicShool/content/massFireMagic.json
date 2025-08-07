@@ -1,18 +1,18 @@
 {
-    "core:fireMagic": {
-        "base": {
-            "effects": {
-                "massBloodlust": {
-                    "type": "SPELL"
-                }
-            }
-        },
-        "expert": {
-            "effects": {
-                "massBloodlust": {
-                    "subtype": "massBloodlust"
-                }
-            }
-        }
-    }
+	"core:fireMagic" : {
+		"base" : {
+			"effects" : {
+				"massBloodlust" : {
+					"type" : "SPELL"
+				}
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"massBloodlust" : {
+					"subtype" : "massBloodlust"
+				}
+			}
+		}
+	}
 }

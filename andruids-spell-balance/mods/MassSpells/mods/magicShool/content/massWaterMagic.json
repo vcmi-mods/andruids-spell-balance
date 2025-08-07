@@ -1,18 +1,18 @@
 {
-    "core:waterMagic": {
-        "base": {
-            "effects": {
-                "massWeakness": {
-                    "type": "SPELL"
-                }
-            }
-        },
-        "expert": {
-            "effects": {
-                "massWeakness": {
-                    "subtype": "massWeakness"
-                }
-            }
-        }
-    }
+	"core:waterMagic" : {
+		"base" : {
+			"effects" : {
+				"massWeakness" : {
+					"type" : "SPELL"
+				}
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"massWeakness" : {
+					"subtype" : "massWeakness"
+				}
+			}
+		}
+	}
 }

@@ -1,23 +1,25 @@
 {
 	"name" : "Wisdom and School of Magic",
-	"description": "New mass spells will appear in the spellbook after acquiring Wisdom, but they can only be cast after mastering the corresponding expert magic skill.",
+	"description" : "New mass spells will appear in the spellbook after acquiring Wisdom, but they can only be cast after mastering the corresponding expert magic skill.",
 	"author" : "Andruids, Kammer",
 	"contact" : "madaosoul@gmail.com",
 	"version" : "0.91",
-	"modType" : "Spells",	
-	"depends" : [ "andruids-spell-balance.MassSpells" ],
-	"conflicts" : [ "andruids-spell-balance.MassSpells.magicSchool" ],
+	"modType" : "Spells",
+	"depends" : [
+		"andruids-spell-balance.MassSpells"
+	],
+	"conflicts" : [
+		"andruids-spell-balance.MassSpells.magicSchool"
+	],
 	"keepDisabled" : false,
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.2.0"
 	},
-	"skills" :
-	[
+	"skills" : [
 		"massWisdom.json"
 	],
 	"czech" : {
-		"name": "Moudrost a škola magie",
-		"description": "Nová hromadná kouzla se objeví v knize kouzel už po získaní moudrosti, ale sesílat je lze až po získaní dané expertní magie."
+		"name" : "Moudrost a škola magie",
+		"description" : "Nová hromadná kouzla se objeví v knize kouzel už po získaní moudrosti, ale sesílat je lze až po získaní dané expertní magie."
 	}
 }
