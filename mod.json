@@ -37,7 +37,7 @@
 		"name" : "Nové vyvážení magie",
 		"description" : "Úpravy kouzel v Heroes 3 pro lepší herní zážitek.",
 		"translations" : [
-			"translation/andruids-spell-balance/czech.json"
+			"translation/czech.json"
 		]
 	}
 }
