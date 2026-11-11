@@ -57,12 +57,17 @@
 			"expert" : {
 				"description" : "{Mass Shield}\r\n\r\nShields all friendly units, reducing the amount of damage received from hand-to-hand attacks.\n\nProtection is twice that of Basic Shield.",
 				"cost" : 12,
-				"effects" : {
-					"generalDamageReduction" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"val" : 30,
-						"subtype" : "damageTypeMelee",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"generalDamageReduction" : {
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"val" : 30,
+								"subtype" : "damageTypeMelee",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			}

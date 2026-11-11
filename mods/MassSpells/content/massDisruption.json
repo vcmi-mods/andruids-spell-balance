@@ -56,22 +56,27 @@
 			"expert" : {
 				"description" : "{Mass Disruption}\r\n\r\nReduces the defense strength of all enemy units. This spell can be combined with Disrupting Ray for increased effect.\n\nThe effect is greater than that of Advanced Disrupting Ray.",
 				"cost" : 16,
-				"effects" : {
-					"setValue" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "defence",
-						"val" : -3,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "PERMANENT"
-					},
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"setValue" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "defence",
+								"val" : -3,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "PERMANENT"
+							},
 
-					"levelValue" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "defence",
-						"val" : -1,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "PERMANENT",
-						"updater" : "TIMES_STACK_LEVEL"
+							"levelValue" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "defence",
+								"val" : -1,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "PERMANENT",
+								"updater" : "TIMES_STACK_LEVEL"
+							}
+						}
 					}
 				}
 			}
