@@ -1,0 +1,8 @@
+{
+	"artifact.core.birdOfPerception.description" : "{Bird of Perception}\r\n\r\nThis figurine increases your Eagle Eye skill by 10%.",
+	"artifact.core.emblemOfCognizance.description" : "{Emblem of Cognizance}\r\n\r\nThis item increases your Eagle Eye skill by 30%.",
+	"artifact.core.stoicWatchman.description" : "{Stoic Watchman}\r\n\r\nThis figurine increases your Eagle Eye skill by 20%.",
+	"skill.core.eagleEye.description.advanced" : "{Advanced Eagle Eye}\n\nAdvanced Eagle Eye gives your hero a 60% chance to learn any spell up to 4th level used in combat. Also, when facing a hero who knows any Advanced magic skill, your hero can cast spells from the same school on the Advanced level.",
+	"skill.core.eagleEye.description.basic" : "{Basic Eagle Eye}\n\nBasic Eagle Eye gives your hero a 50% chance to learn any spell up to 3rd level used in combat. Also, when facing a hero who knows any Basic magic skill, your hero can cast spells from the same school on the Basic level.",
+	"skill.core.eagleEye.description.expert" : "{Expert Eagle Eye}\n\nExpert Eagle Eye gives your hero a 70% chance to learn any spell used in combat. Also, when facing a hero who knows any Expert magic skill, your hero can cast spells from the same school on the Expert level."
+}
