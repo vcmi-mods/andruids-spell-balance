@@ -56,13 +56,18 @@
 				"description" : "{Mass Bloodlust}\r\n\r\nIncreases the hand-to-hand damage inflicted by all friendly units.\n\nEffect is twice that of Basic Bloodlust.",
 				"cost" : 12,
 
-				"effects" : {
-					"generalDamageReduction" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "attack",
-						"effectRange" : "ONLY_MELEE_FIGHT",
-						"val" : 6,
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"generalDamageReduction" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "attack",
+								"effectRange" : "ONLY_MELEE_FIGHT",
+								"val" : 6,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			}

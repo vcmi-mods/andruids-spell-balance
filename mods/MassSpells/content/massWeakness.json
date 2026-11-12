@@ -56,12 +56,17 @@
 			"expert" : {
 				"description" : "{Mass Weakness}\r\n\r\nReduces the attack strength of all enemy units.\n\nThe effect is twice that of Basic Weakness.",
 				"cost" : 14,
-				"effects" : {
-					"primarySkill" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "attack",
-						"val" : -6,
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"primarySkill" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "attack",
+								"val" : -6,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			}

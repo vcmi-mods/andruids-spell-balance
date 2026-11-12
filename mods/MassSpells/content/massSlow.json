@@ -56,13 +56,18 @@
 			"expert" : {
 				"description" : "{Mass Slow}\r\n\r\nReduces the speed of all enemy units.\n\nThe effect is twice that of Basic Slow.",
 				"cost" : 14,
-				"effects" : {
-					"stacksSpeed" : {
-						//								"addInfo" : 0,
-						"type" : "STACKS_SPEED",
-						"val" : -50,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"stacksSpeed" : {
+								//								"addInfo" : 0,
+								"type" : "STACKS_SPEED",
+								"val" : -50,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			}

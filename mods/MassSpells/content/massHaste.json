@@ -56,12 +56,17 @@
 			"expert" : {
 				"description" : "{Mass Haste}\r\n\r\nIncreases the speed of all friendly units.\n\nEffect is nearly twice that of Basic Haste.",
 				"cost" : 13,
-				"effects" : {
-					"stacksSpeed" : {
-						//								"addInfo" : 0,
-						"type" : "STACKS_SPEED",
-						"val" : 5,
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"stacksSpeed" : {
+								//								"addInfo" : 0,
+								"type" : "STACKS_SPEED",
+								"val" : 5,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			}

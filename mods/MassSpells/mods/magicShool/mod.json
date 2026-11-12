@@ -9,7 +9,7 @@
 		"andruids-spell-balance.MassSpells"
 	],
 	"conflicts" : [
-		"andruids-spell-balance.MassSpells.wisdom+magicSchool"
+		"andruids-spell-balance.MassSpells.wisdom-magicSchool"
 	],
 	"keepDisabled" : true,
 	"compatibility" : {

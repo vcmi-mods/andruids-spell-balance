@@ -23,7 +23,7 @@
 		"name" : "Vylepšené orlí oko",
 		"description" : "S vylepšenýcm orlím okem získáte schopnout sesílat kouzla na stejné úrovni magie jako váš protivník.",
 		"translations" : [
-			"translation/EnhancedEagleEye/czech.json"
+			"translation/czech.json"
 		]
 	},
 	"skills" : [

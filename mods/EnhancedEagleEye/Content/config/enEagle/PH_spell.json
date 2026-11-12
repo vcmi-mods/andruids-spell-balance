@@ -28,8 +28,7 @@
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true
-				},
-				"effects" : {}
+				}
 			},
 			"none" : {},
 			"basic" : {},
@@ -76,8 +75,7 @@
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true
-				},
-				"effects" : {}
+				}
 			},
 			"none" : {},
 			"basic" : {},
@@ -124,8 +122,7 @@
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true
-				},
-				"effects" : {}
+				}
 			},
 			"none" : {},
 			"basic" : {},
@@ -172,8 +169,7 @@
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true
-				},
-				"effects" : {}
+				}
 			},
 			"none" : {},
 			"basic" : {},
@@ -220,8 +216,7 @@
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true
-				},
-				"effects" : {}
+				}
 			},
 			"none" : {},
 			"basic" : {},
@@ -268,8 +263,7 @@
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true
-				},
-				"effects" : {}
+				}
 			},
 			"none" : {},
 			"basic" : {},
@@ -316,8 +310,7 @@
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true
-				},
-				"effects" : {}
+				}
 			},
 			"none" : {},
 			"basic" : {},
@@ -364,8 +357,7 @@
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true
-				},
-				"effects" : {}
+				}
 			},
 			"none" : {},
 			"basic" : {},
@@ -412,8 +404,7 @@
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true
-				},
-				"effects" : {}
+				}
 			},
 			"none" : {},
 			"basic" : {},
@@ -460,8 +451,7 @@
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true
-				},
-				"effects" : {}
+				}
 			},
 			"none" : {},
 			"basic" : {},
@@ -508,8 +498,7 @@
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true
-				},
-				"effects" : {}
+				}
 			},
 			"none" : {},
 			"basic" : {},
@@ -556,8 +545,7 @@
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true
-				},
-				"effects" : {}
+				}
 			},
 			"none" : {},
 			"basic" : {},
